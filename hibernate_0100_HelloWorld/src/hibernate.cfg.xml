@@ -22,7 +22,7 @@
 		<property name="dialect">dialect.OracleDialect</property>
 		-->
 		<property name="connection.driver_class">oracle.jdbc.driver.OracleDriver</property>
-        <property name="connection.url">jdbc:oracle:thin:@localhost:1521:hibernate</property>
+        <property name="connection.url">jdbc:oracle:thin:@192.168.1.100:1521:orcl</property>
         <property name="connection.username">system</property>
         <property name="connection.password">tiger</property>
       	<property name="dialect">org.hibernate.dialect.OracleDialect</property>
