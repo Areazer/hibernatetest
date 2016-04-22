@@ -1,0 +1,169 @@
+2016-04-22 07:54:47 [ main ] Hibernate Annotations 3.2.0.GA
+  2016-04-22 07:54:47 [ main ] Hibernate 3.3.2.GA
+  2016-04-22 07:54:47 [ main ] hibernate.properties not found
+  2016-04-22 07:54:47 [ main ] Bytecode provider name : javassist
+  2016-04-22 07:54:47 [ main ] using JDK 1.4 java.sql.Timestamp handling
+  2016-04-22 07:54:47 [ main ] configuring from resource: /hibernate.cfg.xml
+  2016-04-22 07:54:47 [ main ] Configuration resource: /hibernate.cfg.xml
+  2016-04-22 07:54:47 [ main ] Reading mappings from resource : com/hibernate/model/Student.hbm.xml
+  2016-04-22 07:54:50 [ main ] Configured SessionFactory: null
+  2016-04-22 07:54:50 [ main ] Mapping class: com.hibernate.model.Student -> student
+  2016-04-22 07:54:50 [ main ] Binding entity from annotated class: com.hibernate.model.Teacher
+  2016-04-22 07:54:50 [ main ] Bind entity com.hibernate.model.Teacher on table Teacher
+  2016-04-22 07:54:50 [ main ] Using Hibernate built-in connection pool (not for production use!)
+  2016-04-22 07:54:50 [ main ] Hibernate connection pool size: 20
+  2016-04-22 07:54:50 [ main ] autocommit mode: false
+  2016-04-22 07:54:51 [ main ] using driver: oracle.jdbc.driver.OracleDriver at URL: jdbc:oracle:thin:@localhost:1521:ORCL
+  2016-04-22 07:54:51 [ main ] connection properties: {user=system, password=****}
+  2016-04-22 07:54:53 [ main ] Could not obtain connection to query metadata
+  java.sql.SQLException: The Network Adapter could not establish the connection
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:412)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:531)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:221)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:32)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:503)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at org.hibernate.connection.DriverManagerConnectionProvider.getConnection(DriverManagerConnectionProvider.java:133)
+	at org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:111)
+	at org.hibernate.cfg.Configuration.buildSettingsInternal(Configuration.java:2119)
+	at org.hibernate.cfg.Configuration.buildSettings(Configuration.java:2115)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1339)
+	at com.hibernate.test.HibernateIDTest.beforeClass(HibernateIDTest.java:18)
+	at com.hibernate.test.HibernateIDTest.main(HibernateIDTest.java:57)
+Caused by: oracle.net.ns.NetException: The Network Adapter could not establish the connection
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:359)
+	at oracle.net.resolver.AddrResolution.resolveAndExecute(AddrResolution.java:422)
+	at oracle.net.ns.NSProtocol.establishConnection(NSProtocol.java:672)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:237)
+	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1042)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:301)
+	... 13 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at oracle.net.nt.TcpNTAdapter.connect(TcpNTAdapter.java:141)
+	at oracle.net.nt.ConnOption.connect(ConnOption.java:123)
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:337)
+	... 18 more
+2016-04-22 07:54:53 [ main ] Using dialect: org.hibernate.dialect.MySQLDialect
+  2016-04-22 07:54:53 [ main ] Using default transaction strategy (direct JDBC transactions)
+  2016-04-22 07:54:53 [ main ] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+  2016-04-22 07:54:53 [ main ] Automatic flush during beforeCompletion(): disabled
+  2016-04-22 07:54:53 [ main ] Automatic session close at end of transaction: disabled
+  2016-04-22 07:54:53 [ main ] Scrollable result sets: disabled
+  2016-04-22 07:54:53 [ main ] JDBC3 getGeneratedKeys(): disabled
+  2016-04-22 07:54:53 [ main ] Connection release mode: auto
+  2016-04-22 07:54:53 [ main ] Maximum outer join fetch depth: 2
+  2016-04-22 07:54:53 [ main ] Default batch fetch size: 1
+  2016-04-22 07:54:53 [ main ] Generate SQL with comments: disabled
+  2016-04-22 07:54:53 [ main ] Order SQL updates by primary key: disabled
+  2016-04-22 07:54:53 [ main ] Order SQL inserts for batching: disabled
+  2016-04-22 07:54:53 [ main ] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+  2016-04-22 07:54:53 [ main ] Using ASTQueryTranslatorFactory
+  2016-04-22 07:54:53 [ main ] Query language substitutions: {}
+  2016-04-22 07:54:53 [ main ] JPA-QL strict compliance: disabled
+  2016-04-22 07:54:53 [ main ] Second-level cache: enabled
+  2016-04-22 07:54:53 [ main ] Query cache: disabled
+  2016-04-22 07:54:53 [ main ] Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+  2016-04-22 07:54:53 [ main ] Cache provider: org.hibernate.cache.NoCacheProvider
+  2016-04-22 07:54:53 [ main ] Optimize cache for minimal puts: disabled
+  2016-04-22 07:54:53 [ main ] Structured second-level cache entries: disabled
+  2016-04-22 07:54:53 [ main ] Echoing all SQL to stdout
+  2016-04-22 07:54:53 [ main ] Statistics: disabled
+  2016-04-22 07:54:53 [ main ] Deleted entity synthetic identifier rollback: disabled
+  2016-04-22 07:54:53 [ main ] Default entity-mode: pojo
+  2016-04-22 07:54:53 [ main ] Named query checking : enabled
+  2016-04-22 07:54:53 [ main ] building session factory
+  2016-04-22 07:54:53 [ main ] Not binding factory to JNDI, no JNDI name configured
+  2016-04-22 07:54:53 [ main ] Running hbm2ddl schema update
+  2016-04-22 07:54:53 [ main ] fetching database metadata
+  2016-04-22 07:54:55 [ main ] could not get database metadata
+  java.sql.SQLException: The Network Adapter could not establish the connection
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:412)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:531)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:221)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:32)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:503)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at org.hibernate.connection.DriverManagerConnectionProvider.getConnection(DriverManagerConnectionProvider.java:133)
+	at org.hibernate.tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.prepare(SuppliedConnectionProviderConnectionHelper.java:51)
+	at org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:168)
+	at org.hibernate.impl.SessionFactoryImpl.<init>(SessionFactoryImpl.java:356)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1341)
+	at com.hibernate.test.HibernateIDTest.beforeClass(HibernateIDTest.java:18)
+	at com.hibernate.test.HibernateIDTest.main(HibernateIDTest.java:57)
+Caused by: oracle.net.ns.NetException: The Network Adapter could not establish the connection
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:359)
+	at oracle.net.resolver.AddrResolution.resolveAndExecute(AddrResolution.java:422)
+	at oracle.net.ns.NSProtocol.establishConnection(NSProtocol.java:672)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:237)
+	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1042)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:301)
+	... 13 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at oracle.net.nt.TcpNTAdapter.connect(TcpNTAdapter.java:141)
+	at oracle.net.nt.ConnOption.connect(ConnOption.java:123)
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:337)
+	... 18 more
+2016-04-22 07:54:55 [ main ] could not complete schema update
+  java.sql.SQLException: The Network Adapter could not establish the connection
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:412)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:531)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:221)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:32)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:503)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at org.hibernate.connection.DriverManagerConnectionProvider.getConnection(DriverManagerConnectionProvider.java:133)
+	at org.hibernate.tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.prepare(SuppliedConnectionProviderConnectionHelper.java:51)
+	at org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:168)
+	at org.hibernate.impl.SessionFactoryImpl.<init>(SessionFactoryImpl.java:356)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1341)
+	at com.hibernate.test.HibernateIDTest.beforeClass(HibernateIDTest.java:18)
+	at com.hibernate.test.HibernateIDTest.main(HibernateIDTest.java:57)
+Caused by: oracle.net.ns.NetException: The Network Adapter could not establish the connection
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:359)
+	at oracle.net.resolver.AddrResolution.resolveAndExecute(AddrResolution.java:422)
+	at oracle.net.ns.NSProtocol.establishConnection(NSProtocol.java:672)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:237)
+	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1042)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:301)
+	... 13 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at oracle.net.nt.TcpNTAdapter.connect(TcpNTAdapter.java:141)
+	at oracle.net.nt.ConnOption.connect(ConnOption.java:123)
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:337)
+	... 18 more
+2016-04-22 07:55:52 [ main ] Hibernate Annotations 3.2.0.GA
+  2016-04-22 07:55:52 [ main ] Hibernate 3.3.2.GA
+  2016-04-22 07:55:52 [ main ] hibernate.properties not found
+  2016-04-22 07:55:52 [ main ] Bytecode provider name : javassist
+  2016-04-22 07:55:52 [ main ] using JDK 1.4 java.sql.Timestamp handling
+  2016-04-22 07:55:52 [ main ] configuring from resource: /hibernate.cfg.xml
+  2016-04-22 07:55:52 [ main ] Configuration resource: /hibernate.cfg.xml
+  2016-04-22 07:55:52 [ main ] Reading mappings from resource : com/hibernate/model/Student.hbm.xml
+  
