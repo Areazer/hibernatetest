@@ -1,5 +1,7 @@
 package com.hibernate.test;
 
+import java.sql.PseudoColumnUsage;
+
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -7,7 +9,9 @@ import org.hibernate.cfg.AnnotationConfiguration;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
+
 import com.hibernate.model.Student;
+import com.hibernate.model.StudentPK;
 import com.hibernate.model.Teacher;
 
 public class HibernateIDTest {
@@ -26,10 +30,15 @@ private static SessionFactory sessionFactory;
 
 	@Test
 	public void testStudentSave() {
-		Student s = new Student();
+		StudentPK pk=new StudentPK();
 		
-		s.setName("zhangsan");	
-		s.setAge(8);
+		pk.setId(9);
+		pk.setName("aaa");
+		
+		Student s = new Student();
+		s.setPk(pk);
+		s.setAge(9);	
+		
 		
 		
 		Session session = sessionFactory.getCurrentSession();
@@ -42,8 +51,8 @@ private static SessionFactory sessionFactory;
 	public void testTeacherSave() {
 	
 		Teacher t = new Teacher();
-		t.setId(1);
-		t.setName("t1");
+		
+		t.setName("tt");
 		t.setTitle("middle");
 		
 		

@@ -1,11 +1,14 @@
 package com.hibernate.model;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.SequenceGenerator;
 
 
 
 @Entity
+@SequenceGenerator(name="teacherSEQ",sequenceName="teacherSEQ_DB")
 public class Teacher {
 	private int id;
 	private String name;
@@ -13,7 +16,7 @@ public class Teacher {
 	
 	
 	
-	@Id
+	@Id	
 	public int getId() {
 		return id;
 	}
