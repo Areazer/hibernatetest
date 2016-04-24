@@ -774,4 +774,1568 @@ With the Partitioning, OLAP, Data Mining and Real Application Testing options
   2016-04-23 17:21:45 [ main ] table not found: student
   2016-04-23 17:21:45 [ main ] table not found: student
   2016-04-23 17:21:45 [ main ] schema update complete
+  2016-04-23 17:48:16 [ main ] Hibernate Annotations 3.2.0.GA
+  2016-04-23 17:48:16 [ main ] Hibernate 3.3.2.GA
+  2016-04-23 17:48:16 [ main ] hibernate.properties not found
+  2016-04-23 17:48:16 [ main ] Bytecode provider name : javassist
+  2016-04-23 17:48:16 [ main ] using JDK 1.4 java.sql.Timestamp handling
+  2016-04-23 17:48:16 [ main ] configuring from resource: /hibernate.cfg.xml
+  2016-04-23 17:48:16 [ main ] Configuration resource: /hibernate.cfg.xml
+  2016-04-23 17:48:16 [ main ] Reading mappings from resource : com/hibernate/model/Student.hbm.xml
+  2016-04-23 17:48:19 [ main ] Configured SessionFactory: null
+  2016-04-23 17:48:19 [ main ] Mapping class: com.hibernate.model.Student -> student
+  2016-04-23 17:48:19 [ main ] Using Hibernate built-in connection pool (not for production use!)
+  2016-04-23 17:48:19 [ main ] Hibernate connection pool size: 20
+  2016-04-23 17:48:19 [ main ] autocommit mode: false
+  2016-04-23 17:48:19 [ main ] using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost/hibernate
+  2016-04-23 17:48:19 [ main ] connection properties: {user=root, password=****}
+  2016-04-23 17:48:20 [ main ] RDBMS: MySQL, version: 5.7.9-log
+  2016-04-23 17:48:20 [ main ] JDBC driver: MySQL Connector Java, version: mysql-connector-java-5.1.37 ( Revision: 09940f05b4c98150f352e787a2549f11a2e9da93 )
+  2016-04-23 17:48:20 [ main ] Using dialect: org.hibernate.dialect.MySQLDialect
+  2016-04-23 17:48:20 [ main ] Using default transaction strategy (direct JDBC transactions)
+  2016-04-23 17:48:20 [ main ] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+  2016-04-23 17:48:20 [ main ] Automatic flush during beforeCompletion(): disabled
+  2016-04-23 17:48:20 [ main ] Automatic session close at end of transaction: disabled
+  2016-04-23 17:48:20 [ main ] JDBC batch size: 15
+  2016-04-23 17:48:20 [ main ] JDBC batch updates for versioned data: disabled
+  2016-04-23 17:48:20 [ main ] Scrollable result sets: enabled
+  2016-04-23 17:48:20 [ main ] JDBC3 getGeneratedKeys(): enabled
+  2016-04-23 17:48:20 [ main ] Connection release mode: auto
+  2016-04-23 17:48:20 [ main ] Maximum outer join fetch depth: 2
+  2016-04-23 17:48:20 [ main ] Default batch fetch size: 1
+  2016-04-23 17:48:20 [ main ] Generate SQL with comments: disabled
+  2016-04-23 17:48:20 [ main ] Order SQL updates by primary key: disabled
+  2016-04-23 17:48:20 [ main ] Order SQL inserts for batching: disabled
+  2016-04-23 17:48:20 [ main ] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+  2016-04-23 17:48:20 [ main ] Using ASTQueryTranslatorFactory
+  2016-04-23 17:48:20 [ main ] Query language substitutions: {}
+  2016-04-23 17:48:20 [ main ] JPA-QL strict compliance: disabled
+  2016-04-23 17:48:20 [ main ] Second-level cache: enabled
+  2016-04-23 17:48:20 [ main ] Query cache: disabled
+  2016-04-23 17:48:20 [ main ] Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+  2016-04-23 17:48:20 [ main ] Cache provider: org.hibernate.cache.NoCacheProvider
+  2016-04-23 17:48:20 [ main ] Optimize cache for minimal puts: disabled
+  2016-04-23 17:48:20 [ main ] Structured second-level cache entries: disabled
+  2016-04-23 17:48:20 [ main ] Echoing all SQL to stdout
+  2016-04-23 17:48:20 [ main ] Statistics: disabled
+  2016-04-23 17:48:20 [ main ] Deleted entity synthetic identifier rollback: disabled
+  2016-04-23 17:48:20 [ main ] Default entity-mode: pojo
+  2016-04-23 17:48:20 [ main ] Named query checking : enabled
+  2016-04-23 17:48:20 [ main ] building session factory
+  2016-04-23 17:48:20 [ main ] Not binding factory to JNDI, no JNDI name configured
+  2016-04-23 17:48:20 [ main ] Running hbm2ddl schema update
+  2016-04-23 17:48:20 [ main ] fetching database metadata
+  2016-04-23 17:48:20 [ main ] updating schema
+  2016-04-23 17:48:20 [ main ] table found: hibernate.student
+  2016-04-23 17:48:20 [ main ] columns: [name, id, age]
+  2016-04-23 17:48:20 [ main ] foreign keys: []
+  2016-04-23 17:48:20 [ main ] indexes: [primary]
+  2016-04-23 17:48:20 [ main ] schema update complete
+  2016-04-23 17:56:56 [ main ] Hibernate Annotations 3.2.0.GA
+  2016-04-23 17:56:56 [ main ] Hibernate 3.3.2.GA
+  2016-04-23 17:56:56 [ main ] hibernate.properties not found
+  2016-04-23 17:56:56 [ main ] Bytecode provider name : javassist
+  2016-04-23 17:56:56 [ main ] using JDK 1.4 java.sql.Timestamp handling
+  2016-04-23 17:56:56 [ main ] configuring from resource: /hibernate.cfg.xml
+  2016-04-23 17:56:56 [ main ] Configuration resource: /hibernate.cfg.xml
+  2016-04-23 17:56:56 [ main ] Reading mappings from resource : com/hibernate/model/Student.hbm.xml
+  2016-04-23 17:56:59 [ main ] Configured SessionFactory: null
+  2016-04-23 17:56:59 [ main ] Mapping class: com.hibernate.model.Student -> student
+  2016-04-23 17:56:59 [ main ] Using Hibernate built-in connection pool (not for production use!)
+  2016-04-23 17:56:59 [ main ] Hibernate connection pool size: 20
+  2016-04-23 17:56:59 [ main ] autocommit mode: false
+  2016-04-23 17:56:59 [ main ] using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost/hibernate
+  2016-04-23 17:56:59 [ main ] connection properties: {user=root, password=****}
+  2016-04-23 17:56:59 [ main ] RDBMS: MySQL, version: 5.7.9-log
+  2016-04-23 17:56:59 [ main ] JDBC driver: MySQL Connector Java, version: mysql-connector-java-5.1.37 ( Revision: 09940f05b4c98150f352e787a2549f11a2e9da93 )
+  2016-04-23 17:56:59 [ main ] Using dialect: org.hibernate.dialect.MySQLDialect
+  2016-04-23 17:56:59 [ main ] Using default transaction strategy (direct JDBC transactions)
+  2016-04-23 17:56:59 [ main ] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+  2016-04-23 17:56:59 [ main ] Automatic flush during beforeCompletion(): disabled
+  2016-04-23 17:56:59 [ main ] Automatic session close at end of transaction: disabled
+  2016-04-23 17:56:59 [ main ] JDBC batch size: 15
+  2016-04-23 17:56:59 [ main ] JDBC batch updates for versioned data: disabled
+  2016-04-23 17:56:59 [ main ] Scrollable result sets: enabled
+  2016-04-23 17:56:59 [ main ] JDBC3 getGeneratedKeys(): enabled
+  2016-04-23 17:56:59 [ main ] Connection release mode: auto
+  2016-04-23 17:56:59 [ main ] Maximum outer join fetch depth: 2
+  2016-04-23 17:56:59 [ main ] Default batch fetch size: 1
+  2016-04-23 17:56:59 [ main ] Generate SQL with comments: disabled
+  2016-04-23 17:56:59 [ main ] Order SQL updates by primary key: disabled
+  2016-04-23 17:56:59 [ main ] Order SQL inserts for batching: disabled
+  2016-04-23 17:56:59 [ main ] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+  2016-04-23 17:56:59 [ main ] Using ASTQueryTranslatorFactory
+  2016-04-23 17:56:59 [ main ] Query language substitutions: {}
+  2016-04-23 17:56:59 [ main ] JPA-QL strict compliance: disabled
+  2016-04-23 17:56:59 [ main ] Second-level cache: enabled
+  2016-04-23 17:56:59 [ main ] Query cache: disabled
+  2016-04-23 17:56:59 [ main ] Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+  2016-04-23 17:56:59 [ main ] Cache provider: org.hibernate.cache.NoCacheProvider
+  2016-04-23 17:56:59 [ main ] Optimize cache for minimal puts: disabled
+  2016-04-23 17:56:59 [ main ] Structured second-level cache entries: disabled
+  2016-04-23 17:56:59 [ main ] Echoing all SQL to stdout
+  2016-04-23 17:56:59 [ main ] Statistics: disabled
+  2016-04-23 17:56:59 [ main ] Deleted entity synthetic identifier rollback: disabled
+  2016-04-23 17:56:59 [ main ] Default entity-mode: pojo
+  2016-04-23 17:56:59 [ main ] Named query checking : enabled
+  2016-04-23 17:57:00 [ main ] building session factory
+  2016-04-23 17:57:00 [ main ] Not binding factory to JNDI, no JNDI name configured
+  2016-04-23 17:57:00 [ main ] Running hbm2ddl schema update
+  2016-04-23 17:57:00 [ main ] fetching database metadata
+  2016-04-23 17:57:00 [ main ] updating schema
+  2016-04-23 17:57:00 [ main ] table not found: student
+  2016-04-23 17:57:00 [ main ] table not found: student
+  2016-04-23 17:57:00 [ main ] schema update complete
+  2016-04-23 18:03:10 [ main ] Hibernate Annotations 3.2.0.GA
+  2016-04-23 18:03:10 [ main ] Hibernate 3.3.2.GA
+  2016-04-23 18:03:10 [ main ] hibernate.properties not found
+  2016-04-23 18:03:10 [ main ] Bytecode provider name : javassist
+  2016-04-23 18:03:10 [ main ] using JDK 1.4 java.sql.Timestamp handling
+  2016-04-23 18:03:10 [ main ] configuring from resource: /hibernate.cfg.xml
+  2016-04-23 18:03:10 [ main ] Configuration resource: /hibernate.cfg.xml
+  2016-04-23 18:03:10 [ main ] Reading mappings from resource : com/hibernate/model/Student.hbm.xml
+  2016-04-23 18:03:13 [ main ] Configured SessionFactory: null
+  2016-04-23 18:03:13 [ main ] Mapping class: com.hibernate.model.Student -> student
+  2016-04-23 18:03:13 [ main ] Using Hibernate built-in connection pool (not for production use!)
+  2016-04-23 18:03:13 [ main ] Hibernate connection pool size: 20
+  2016-04-23 18:03:13 [ main ] autocommit mode: false
+  2016-04-23 18:03:13 [ main ] using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost/hibernate
+  2016-04-23 18:03:13 [ main ] connection properties: {user=root, password=****}
+  2016-04-23 18:03:14 [ main ] RDBMS: MySQL, version: 5.7.9-log
+  2016-04-23 18:03:14 [ main ] JDBC driver: MySQL Connector Java, version: mysql-connector-java-5.1.37 ( Revision: 09940f05b4c98150f352e787a2549f11a2e9da93 )
+  2016-04-23 18:03:14 [ main ] Using dialect: org.hibernate.dialect.MySQLDialect
+  2016-04-23 18:03:14 [ main ] Using default transaction strategy (direct JDBC transactions)
+  2016-04-23 18:03:14 [ main ] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+  2016-04-23 18:03:14 [ main ] Automatic flush during beforeCompletion(): disabled
+  2016-04-23 18:03:14 [ main ] Automatic session close at end of transaction: disabled
+  2016-04-23 18:03:14 [ main ] JDBC batch size: 15
+  2016-04-23 18:03:14 [ main ] JDBC batch updates for versioned data: disabled
+  2016-04-23 18:03:14 [ main ] Scrollable result sets: enabled
+  2016-04-23 18:03:14 [ main ] JDBC3 getGeneratedKeys(): enabled
+  2016-04-23 18:03:14 [ main ] Connection release mode: auto
+  2016-04-23 18:03:14 [ main ] Maximum outer join fetch depth: 2
+  2016-04-23 18:03:14 [ main ] Default batch fetch size: 1
+  2016-04-23 18:03:14 [ main ] Generate SQL with comments: disabled
+  2016-04-23 18:03:14 [ main ] Order SQL updates by primary key: disabled
+  2016-04-23 18:03:14 [ main ] Order SQL inserts for batching: disabled
+  2016-04-23 18:03:14 [ main ] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+  2016-04-23 18:03:14 [ main ] Using ASTQueryTranslatorFactory
+  2016-04-23 18:03:14 [ main ] Query language substitutions: {}
+  2016-04-23 18:03:14 [ main ] JPA-QL strict compliance: disabled
+  2016-04-23 18:03:14 [ main ] Second-level cache: enabled
+  2016-04-23 18:03:14 [ main ] Query cache: disabled
+  2016-04-23 18:03:14 [ main ] Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+  2016-04-23 18:03:14 [ main ] Cache provider: org.hibernate.cache.NoCacheProvider
+  2016-04-23 18:03:14 [ main ] Optimize cache for minimal puts: disabled
+  2016-04-23 18:03:14 [ main ] Structured second-level cache entries: disabled
+  2016-04-23 18:03:14 [ main ] Echoing all SQL to stdout
+  2016-04-23 18:03:14 [ main ] Statistics: disabled
+  2016-04-23 18:03:14 [ main ] Deleted entity synthetic identifier rollback: disabled
+  2016-04-23 18:03:14 [ main ] Default entity-mode: pojo
+  2016-04-23 18:03:14 [ main ] Named query checking : enabled
+  2016-04-23 18:03:14 [ main ] building session factory
+  2016-04-23 18:03:14 [ main ] Not binding factory to JNDI, no JNDI name configured
+  2016-04-23 18:03:14 [ main ] Running hbm2ddl schema update
+  2016-04-23 18:03:14 [ main ] fetching database metadata
+  2016-04-23 18:03:14 [ main ] updating schema
+  2016-04-23 18:03:14 [ main ] table found: hibernate.student
+  2016-04-23 18:03:14 [ main ] columns: [name, id, age]
+  2016-04-23 18:03:14 [ main ] foreign keys: []
+  2016-04-23 18:03:14 [ main ] indexes: [primary]
+  2016-04-23 18:03:14 [ main ] schema update complete
+  2016-04-23 18:05:20 [ main ] Hibernate Annotations 3.2.0.GA
+  2016-04-23 18:05:20 [ main ] Hibernate 3.3.2.GA
+  2016-04-23 18:05:20 [ main ] hibernate.properties not found
+  2016-04-23 18:05:20 [ main ] Bytecode provider name : javassist
+  2016-04-23 18:05:20 [ main ] using JDK 1.4 java.sql.Timestamp handling
+  2016-04-23 18:05:20 [ main ] configuring from resource: /hibernate.cfg.xml
+  2016-04-23 18:05:20 [ main ] Configuration resource: /hibernate.cfg.xml
+  2016-04-23 18:05:20 [ main ] Reading mappings from resource : com/hibernate/model/Student.hbm.xml
+  2016-04-23 18:05:23 [ main ] Configured SessionFactory: null
+  2016-04-23 18:05:23 [ main ] Mapping class: com.hibernate.model.Student -> student
+  2016-04-23 18:05:23 [ main ] Using Hibernate built-in connection pool (not for production use!)
+  2016-04-23 18:05:23 [ main ] Hibernate connection pool size: 20
+  2016-04-23 18:05:23 [ main ] autocommit mode: false
+  2016-04-23 18:05:23 [ main ] using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost/hibernate
+  2016-04-23 18:05:23 [ main ] connection properties: {user=root, password=****}
+  2016-04-23 18:05:24 [ main ] RDBMS: MySQL, version: 5.7.9-log
+  2016-04-23 18:05:24 [ main ] JDBC driver: MySQL Connector Java, version: mysql-connector-java-5.1.37 ( Revision: 09940f05b4c98150f352e787a2549f11a2e9da93 )
+  2016-04-23 18:05:24 [ main ] Using dialect: org.hibernate.dialect.MySQLDialect
+  2016-04-23 18:05:24 [ main ] Using default transaction strategy (direct JDBC transactions)
+  2016-04-23 18:05:24 [ main ] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+  2016-04-23 18:05:24 [ main ] Automatic flush during beforeCompletion(): disabled
+  2016-04-23 18:05:24 [ main ] Automatic session close at end of transaction: disabled
+  2016-04-23 18:05:24 [ main ] JDBC batch size: 15
+  2016-04-23 18:05:24 [ main ] JDBC batch updates for versioned data: disabled
+  2016-04-23 18:05:24 [ main ] Scrollable result sets: enabled
+  2016-04-23 18:05:24 [ main ] JDBC3 getGeneratedKeys(): enabled
+  2016-04-23 18:05:24 [ main ] Connection release mode: auto
+  2016-04-23 18:05:24 [ main ] Maximum outer join fetch depth: 2
+  2016-04-23 18:05:24 [ main ] Default batch fetch size: 1
+  2016-04-23 18:05:24 [ main ] Generate SQL with comments: disabled
+  2016-04-23 18:05:24 [ main ] Order SQL updates by primary key: disabled
+  2016-04-23 18:05:24 [ main ] Order SQL inserts for batching: disabled
+  2016-04-23 18:05:24 [ main ] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+  2016-04-23 18:05:24 [ main ] Using ASTQueryTranslatorFactory
+  2016-04-23 18:05:24 [ main ] Query language substitutions: {}
+  2016-04-23 18:05:24 [ main ] JPA-QL strict compliance: disabled
+  2016-04-23 18:05:24 [ main ] Second-level cache: enabled
+  2016-04-23 18:05:24 [ main ] Query cache: disabled
+  2016-04-23 18:05:24 [ main ] Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+  2016-04-23 18:05:24 [ main ] Cache provider: org.hibernate.cache.NoCacheProvider
+  2016-04-23 18:05:24 [ main ] Optimize cache for minimal puts: disabled
+  2016-04-23 18:05:24 [ main ] Structured second-level cache entries: disabled
+  2016-04-23 18:05:24 [ main ] Echoing all SQL to stdout
+  2016-04-23 18:05:24 [ main ] Statistics: disabled
+  2016-04-23 18:05:24 [ main ] Deleted entity synthetic identifier rollback: disabled
+  2016-04-23 18:05:24 [ main ] Default entity-mode: pojo
+  2016-04-23 18:05:24 [ main ] Named query checking : enabled
+  2016-04-23 18:05:24 [ main ] building session factory
+  2016-04-23 18:05:24 [ main ] Not binding factory to JNDI, no JNDI name configured
+  2016-04-23 18:05:24 [ main ] Running hbm2ddl schema update
+  2016-04-23 18:05:24 [ main ] fetching database metadata
+  2016-04-23 18:05:24 [ main ] updating schema
+  2016-04-23 18:05:24 [ main ] table found: hibernate.student
+  2016-04-23 18:05:24 [ main ] columns: [name, id, age]
+  2016-04-23 18:05:24 [ main ] foreign keys: []
+  2016-04-23 18:05:24 [ main ] indexes: [primary]
+  2016-04-23 18:05:24 [ main ] schema update complete
+  2016-04-23 18:05:24 [ main ] closing
+  2016-04-23 18:05:24 [ main ] cleaning up connection pool: jdbc:mysql://localhost/hibernate
+  2016-04-23 18:06:43 [ main ] Hibernate Annotations 3.2.0.GA
+  2016-04-23 18:06:43 [ main ] Hibernate 3.3.2.GA
+  2016-04-23 18:06:43 [ main ] hibernate.properties not found
+  2016-04-23 18:06:43 [ main ] Bytecode provider name : javassist
+  2016-04-23 18:06:43 [ main ] using JDK 1.4 java.sql.Timestamp handling
+  2016-04-23 18:06:43 [ main ] configuring from resource: /hibernate.cfg.xml
+  2016-04-23 18:06:43 [ main ] Configuration resource: /hibernate.cfg.xml
+  2016-04-23 18:06:43 [ main ] Reading mappings from resource : com/hibernate/model/Student.hbm.xml
+  2016-04-23 18:06:48 [ main ] Configured SessionFactory: null
+  2016-04-23 18:06:49 [ main ] Mapping class: com.hibernate.model.Student -> student
+  2016-04-23 18:06:49 [ main ] Using Hibernate built-in connection pool (not for production use!)
+  2016-04-23 18:06:49 [ main ] Hibernate connection pool size: 20
+  2016-04-23 18:06:49 [ main ] autocommit mode: false
+  2016-04-23 18:06:49 [ main ] using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost/hibernate
+  2016-04-23 18:06:49 [ main ] connection properties: {user=root, password=****}
+  2016-04-23 18:06:49 [ main ] RDBMS: MySQL, version: 5.7.9-log
+  2016-04-23 18:06:49 [ main ] JDBC driver: MySQL Connector Java, version: mysql-connector-java-5.1.37 ( Revision: 09940f05b4c98150f352e787a2549f11a2e9da93 )
+  2016-04-23 18:06:49 [ main ] Using dialect: org.hibernate.dialect.MySQLDialect
+  2016-04-23 18:06:49 [ main ] Using default transaction strategy (direct JDBC transactions)
+  2016-04-23 18:06:49 [ main ] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+  2016-04-23 18:06:49 [ main ] Automatic flush during beforeCompletion(): disabled
+  2016-04-23 18:06:49 [ main ] Automatic session close at end of transaction: disabled
+  2016-04-23 18:06:49 [ main ] JDBC batch size: 15
+  2016-04-23 18:06:49 [ main ] JDBC batch updates for versioned data: disabled
+  2016-04-23 18:06:49 [ main ] Scrollable result sets: enabled
+  2016-04-23 18:06:49 [ main ] JDBC3 getGeneratedKeys(): enabled
+  2016-04-23 18:06:49 [ main ] Connection release mode: auto
+  2016-04-23 18:06:49 [ main ] Maximum outer join fetch depth: 2
+  2016-04-23 18:06:49 [ main ] Default batch fetch size: 1
+  2016-04-23 18:06:49 [ main ] Generate SQL with comments: disabled
+  2016-04-23 18:06:49 [ main ] Order SQL updates by primary key: disabled
+  2016-04-23 18:06:49 [ main ] Order SQL inserts for batching: disabled
+  2016-04-23 18:06:49 [ main ] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+  2016-04-23 18:06:49 [ main ] Using ASTQueryTranslatorFactory
+  2016-04-23 18:06:49 [ main ] Query language substitutions: {}
+  2016-04-23 18:06:49 [ main ] JPA-QL strict compliance: disabled
+  2016-04-23 18:06:49 [ main ] Second-level cache: enabled
+  2016-04-23 18:06:49 [ main ] Query cache: disabled
+  2016-04-23 18:06:49 [ main ] Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+  2016-04-23 18:06:49 [ main ] Cache provider: org.hibernate.cache.NoCacheProvider
+  2016-04-23 18:06:49 [ main ] Optimize cache for minimal puts: disabled
+  2016-04-23 18:06:49 [ main ] Structured second-level cache entries: disabled
+  2016-04-23 18:06:49 [ main ] Echoing all SQL to stdout
+  2016-04-23 18:06:49 [ main ] Statistics: disabled
+  2016-04-23 18:06:49 [ main ] Deleted entity synthetic identifier rollback: disabled
+  2016-04-23 18:06:49 [ main ] Default entity-mode: pojo
+  2016-04-23 18:06:49 [ main ] Named query checking : enabled
+  2016-04-23 18:06:49 [ main ] building session factory
+  2016-04-23 18:06:49 [ main ] Not binding factory to JNDI, no JNDI name configured
+  2016-04-23 18:06:49 [ main ] Running hbm2ddl schema update
+  2016-04-23 18:06:49 [ main ] fetching database metadata
+  2016-04-23 18:06:49 [ main ] updating schema
+  2016-04-23 18:06:49 [ main ] table found: hibernate.student
+  2016-04-23 18:06:49 [ main ] columns: [name, id, age]
+  2016-04-23 18:06:49 [ main ] foreign keys: []
+  2016-04-23 18:06:49 [ main ] indexes: [primary]
+  2016-04-23 18:06:49 [ main ] schema update complete
+  2016-04-23 18:06:50 [ main ] closing
+  2016-04-23 18:06:50 [ main ] cleaning up connection pool: jdbc:mysql://localhost/hibernate
+  2016-04-23 18:13:20 [ main ] Hibernate Annotations 3.2.0.GA
+  2016-04-23 18:13:20 [ main ] Hibernate 3.3.2.GA
+  2016-04-23 18:13:20 [ main ] hibernate.properties not found
+  2016-04-23 18:13:20 [ main ] Bytecode provider name : javassist
+  2016-04-23 18:13:20 [ main ] using JDK 1.4 java.sql.Timestamp handling
+  2016-04-23 18:13:20 [ main ] configuring from resource: /hibernate.cfg.xml
+  2016-04-23 18:13:20 [ main ] Configuration resource: /hibernate.cfg.xml
+  2016-04-23 18:13:20 [ main ] Reading mappings from resource : com/hibernate/model/Student.hbm.xml
+  2016-04-23 18:13:22 [ main ] Configured SessionFactory: null
+  2016-04-23 18:13:22 [ main ] Mapping class: com.hibernate.model.Student -> student
+  2016-04-23 18:13:22 [ main ] Using Hibernate built-in connection pool (not for production use!)
+  2016-04-23 18:13:22 [ main ] Hibernate connection pool size: 20
+  2016-04-23 18:13:22 [ main ] autocommit mode: false
+  2016-04-23 18:13:23 [ main ] using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost/hibernate
+  2016-04-23 18:13:23 [ main ] connection properties: {user=root, password=****}
+  2016-04-23 18:13:23 [ main ] RDBMS: MySQL, version: 5.7.9-log
+  2016-04-23 18:13:23 [ main ] JDBC driver: MySQL Connector Java, version: mysql-connector-java-5.1.37 ( Revision: 09940f05b4c98150f352e787a2549f11a2e9da93 )
+  2016-04-23 18:13:23 [ main ] Using dialect: org.hibernate.dialect.MySQLDialect
+  2016-04-23 18:13:23 [ main ] Using default transaction strategy (direct JDBC transactions)
+  2016-04-23 18:13:23 [ main ] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+  2016-04-23 18:13:23 [ main ] Automatic flush during beforeCompletion(): disabled
+  2016-04-23 18:13:23 [ main ] Automatic session close at end of transaction: disabled
+  2016-04-23 18:13:23 [ main ] JDBC batch size: 15
+  2016-04-23 18:13:23 [ main ] JDBC batch updates for versioned data: disabled
+  2016-04-23 18:13:23 [ main ] Scrollable result sets: enabled
+  2016-04-23 18:13:23 [ main ] JDBC3 getGeneratedKeys(): enabled
+  2016-04-23 18:13:23 [ main ] Connection release mode: auto
+  2016-04-23 18:13:23 [ main ] Maximum outer join fetch depth: 2
+  2016-04-23 18:13:23 [ main ] Default batch fetch size: 1
+  2016-04-23 18:13:23 [ main ] Generate SQL with comments: disabled
+  2016-04-23 18:13:23 [ main ] Order SQL updates by primary key: disabled
+  2016-04-23 18:13:23 [ main ] Order SQL inserts for batching: disabled
+  2016-04-23 18:13:23 [ main ] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+  2016-04-23 18:13:23 [ main ] Using ASTQueryTranslatorFactory
+  2016-04-23 18:13:23 [ main ] Query language substitutions: {}
+  2016-04-23 18:13:23 [ main ] JPA-QL strict compliance: disabled
+  2016-04-23 18:13:23 [ main ] Second-level cache: enabled
+  2016-04-23 18:13:23 [ main ] Query cache: disabled
+  2016-04-23 18:13:23 [ main ] Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+  2016-04-23 18:13:23 [ main ] Cache provider: org.hibernate.cache.NoCacheProvider
+  2016-04-23 18:13:23 [ main ] Optimize cache for minimal puts: disabled
+  2016-04-23 18:13:23 [ main ] Structured second-level cache entries: disabled
+  2016-04-23 18:13:23 [ main ] Echoing all SQL to stdout
+  2016-04-23 18:13:23 [ main ] Statistics: disabled
+  2016-04-23 18:13:23 [ main ] Deleted entity synthetic identifier rollback: disabled
+  2016-04-23 18:13:23 [ main ] Default entity-mode: pojo
+  2016-04-23 18:13:23 [ main ] Named query checking : enabled
+  2016-04-23 18:13:23 [ main ] building session factory
+  2016-04-23 18:13:23 [ main ] Not binding factory to JNDI, no JNDI name configured
+  2016-04-23 18:13:23 [ main ] Running hbm2ddl schema update
+  2016-04-23 18:13:23 [ main ] fetching database metadata
+  2016-04-23 18:13:23 [ main ] updating schema
+  2016-04-23 18:13:23 [ main ] table found: hibernate.student
+  2016-04-23 18:13:23 [ main ] columns: [name, id, age]
+  2016-04-23 18:13:23 [ main ] foreign keys: []
+  2016-04-23 18:13:23 [ main ] indexes: [primary]
+  2016-04-23 18:13:23 [ main ] schema update complete
+  2016-04-23 18:13:30 [ main ] Hibernate Annotations 3.2.0.GA
+  2016-04-23 18:13:30 [ main ] Hibernate 3.3.2.GA
+  2016-04-23 18:13:30 [ main ] hibernate.properties not found
+  2016-04-23 18:13:30 [ main ] Bytecode provider name : javassist
+  2016-04-23 18:13:30 [ main ] using JDK 1.4 java.sql.Timestamp handling
+  2016-04-23 18:13:30 [ main ] configuring from resource: /hibernate.cfg.xml
+  2016-04-23 18:13:30 [ main ] Configuration resource: /hibernate.cfg.xml
+  2016-04-23 18:13:30 [ main ] Reading mappings from resource : com/hibernate/model/Student.hbm.xml
+  2016-04-23 18:13:32 [ main ] Configured SessionFactory: null
+  2016-04-23 18:13:32 [ main ] Mapping class: com.hibernate.model.Student -> student
+  2016-04-23 18:13:33 [ main ] Using Hibernate built-in connection pool (not for production use!)
+  2016-04-23 18:13:33 [ main ] Hibernate connection pool size: 20
+  2016-04-23 18:13:33 [ main ] autocommit mode: false
+  2016-04-23 18:13:33 [ main ] using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost/hibernate
+  2016-04-23 18:13:33 [ main ] connection properties: {user=root, password=****}
+  2016-04-23 18:13:33 [ main ] RDBMS: MySQL, version: 5.7.9-log
+  2016-04-23 18:13:33 [ main ] JDBC driver: MySQL Connector Java, version: mysql-connector-java-5.1.37 ( Revision: 09940f05b4c98150f352e787a2549f11a2e9da93 )
+  2016-04-23 18:13:33 [ main ] Using dialect: org.hibernate.dialect.MySQLDialect
+  2016-04-23 18:13:33 [ main ] Using default transaction strategy (direct JDBC transactions)
+  2016-04-23 18:13:33 [ main ] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+  2016-04-23 18:13:33 [ main ] Automatic flush during beforeCompletion(): disabled
+  2016-04-23 18:13:33 [ main ] Automatic session close at end of transaction: disabled
+  2016-04-23 18:13:33 [ main ] JDBC batch size: 15
+  2016-04-23 18:13:33 [ main ] JDBC batch updates for versioned data: disabled
+  2016-04-23 18:13:33 [ main ] Scrollable result sets: enabled
+  2016-04-23 18:13:33 [ main ] JDBC3 getGeneratedKeys(): enabled
+  2016-04-23 18:13:33 [ main ] Connection release mode: auto
+  2016-04-23 18:13:33 [ main ] Maximum outer join fetch depth: 2
+  2016-04-23 18:13:33 [ main ] Default batch fetch size: 1
+  2016-04-23 18:13:33 [ main ] Generate SQL with comments: disabled
+  2016-04-23 18:13:33 [ main ] Order SQL updates by primary key: disabled
+  2016-04-23 18:13:33 [ main ] Order SQL inserts for batching: disabled
+  2016-04-23 18:13:33 [ main ] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+  2016-04-23 18:13:33 [ main ] Using ASTQueryTranslatorFactory
+  2016-04-23 18:13:33 [ main ] Query language substitutions: {}
+  2016-04-23 18:13:33 [ main ] JPA-QL strict compliance: disabled
+  2016-04-23 18:13:33 [ main ] Second-level cache: enabled
+  2016-04-23 18:13:33 [ main ] Query cache: disabled
+  2016-04-23 18:13:33 [ main ] Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+  2016-04-23 18:13:33 [ main ] Cache provider: org.hibernate.cache.NoCacheProvider
+  2016-04-23 18:13:33 [ main ] Optimize cache for minimal puts: disabled
+  2016-04-23 18:13:33 [ main ] Structured second-level cache entries: disabled
+  2016-04-23 18:13:33 [ main ] Echoing all SQL to stdout
+  2016-04-23 18:13:33 [ main ] Statistics: disabled
+  2016-04-23 18:13:33 [ main ] Deleted entity synthetic identifier rollback: disabled
+  2016-04-23 18:13:33 [ main ] Default entity-mode: pojo
+  2016-04-23 18:13:33 [ main ] Named query checking : enabled
+  2016-04-23 18:13:33 [ main ] building session factory
+  2016-04-23 18:13:33 [ main ] Not binding factory to JNDI, no JNDI name configured
+  2016-04-23 18:13:33 [ main ] Running hbm2ddl schema update
+  2016-04-23 18:13:33 [ main ] fetching database metadata
+  2016-04-23 18:13:33 [ main ] updating schema
+  2016-04-23 18:13:33 [ main ] table found: hibernate.student
+  2016-04-23 18:13:33 [ main ] columns: [name, id, age]
+  2016-04-23 18:13:33 [ main ] foreign keys: []
+  2016-04-23 18:13:33 [ main ] indexes: [primary]
+  2016-04-23 18:13:33 [ main ] schema update complete
+  2016-04-23 18:13:33 [ main ] closing
+  2016-04-23 18:13:33 [ main ] cleaning up connection pool: jdbc:mysql://localhost/hibernate
+  2016-04-23 18:16:20 [ main ] Hibernate Annotations 3.2.0.GA
+  2016-04-23 18:16:20 [ main ] Hibernate 3.3.2.GA
+  2016-04-23 18:16:20 [ main ] hibernate.properties not found
+  2016-04-23 18:16:20 [ main ] Bytecode provider name : javassist
+  2016-04-23 18:16:20 [ main ] using JDK 1.4 java.sql.Timestamp handling
+  2016-04-23 18:16:20 [ main ] configuring from resource: /hibernate.cfg.xml
+  2016-04-23 18:16:20 [ main ] Configuration resource: /hibernate.cfg.xml
+  2016-04-23 18:16:20 [ main ] Reading mappings from resource : com/hibernate/model/Student.hbm.xml
+  2016-04-23 18:16:23 [ main ] Configured SessionFactory: null
+  2016-04-23 18:16:23 [ main ] Mapping class: com.hibernate.model.Student -> student
+  2016-04-23 18:16:23 [ main ] Using Hibernate built-in connection pool (not for production use!)
+  2016-04-23 18:16:23 [ main ] Hibernate connection pool size: 20
+  2016-04-23 18:16:23 [ main ] autocommit mode: false
+  2016-04-23 18:16:23 [ main ] using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost/hibernate
+  2016-04-23 18:16:23 [ main ] connection properties: {user=root, password=****}
+  2016-04-23 18:16:23 [ main ] RDBMS: MySQL, version: 5.7.9-log
+  2016-04-23 18:16:23 [ main ] JDBC driver: MySQL Connector Java, version: mysql-connector-java-5.1.37 ( Revision: 09940f05b4c98150f352e787a2549f11a2e9da93 )
+  2016-04-23 18:16:23 [ main ] Using dialect: org.hibernate.dialect.MySQLDialect
+  2016-04-23 18:16:23 [ main ] Using default transaction strategy (direct JDBC transactions)
+  2016-04-23 18:16:23 [ main ] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+  2016-04-23 18:16:23 [ main ] Automatic flush during beforeCompletion(): disabled
+  2016-04-23 18:16:23 [ main ] Automatic session close at end of transaction: disabled
+  2016-04-23 18:16:23 [ main ] JDBC batch size: 15
+  2016-04-23 18:16:23 [ main ] JDBC batch updates for versioned data: disabled
+  2016-04-23 18:16:23 [ main ] Scrollable result sets: enabled
+  2016-04-23 18:16:23 [ main ] JDBC3 getGeneratedKeys(): enabled
+  2016-04-23 18:16:23 [ main ] Connection release mode: auto
+  2016-04-23 18:16:23 [ main ] Maximum outer join fetch depth: 2
+  2016-04-23 18:16:23 [ main ] Default batch fetch size: 1
+  2016-04-23 18:16:23 [ main ] Generate SQL with comments: disabled
+  2016-04-23 18:16:23 [ main ] Order SQL updates by primary key: disabled
+  2016-04-23 18:16:23 [ main ] Order SQL inserts for batching: disabled
+  2016-04-23 18:16:23 [ main ] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+  2016-04-23 18:16:23 [ main ] Using ASTQueryTranslatorFactory
+  2016-04-23 18:16:23 [ main ] Query language substitutions: {}
+  2016-04-23 18:16:23 [ main ] JPA-QL strict compliance: disabled
+  2016-04-23 18:16:23 [ main ] Second-level cache: enabled
+  2016-04-23 18:16:23 [ main ] Query cache: disabled
+  2016-04-23 18:16:23 [ main ] Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+  2016-04-23 18:16:23 [ main ] Cache provider: org.hibernate.cache.NoCacheProvider
+  2016-04-23 18:16:23 [ main ] Optimize cache for minimal puts: disabled
+  2016-04-23 18:16:23 [ main ] Structured second-level cache entries: disabled
+  2016-04-23 18:16:23 [ main ] Echoing all SQL to stdout
+  2016-04-23 18:16:23 [ main ] Statistics: disabled
+  2016-04-23 18:16:23 [ main ] Deleted entity synthetic identifier rollback: disabled
+  2016-04-23 18:16:23 [ main ] Default entity-mode: pojo
+  2016-04-23 18:16:23 [ main ] Named query checking : enabled
+  2016-04-23 18:16:23 [ main ] building session factory
+  2016-04-23 18:16:23 [ main ] Not binding factory to JNDI, no JNDI name configured
+  2016-04-23 18:16:23 [ main ] Running hbm2ddl schema update
+  2016-04-23 18:16:23 [ main ] fetching database metadata
+  2016-04-23 18:16:23 [ main ] updating schema
+  2016-04-23 18:16:23 [ main ] table found: hibernate.student
+  2016-04-23 18:16:23 [ main ] columns: [name, id, age]
+  2016-04-23 18:16:23 [ main ] foreign keys: []
+  2016-04-23 18:16:23 [ main ] indexes: [primary]
+  2016-04-23 18:16:23 [ main ] schema update complete
+  2016-04-23 18:16:24 [ main ] closing
+  2016-04-23 18:16:24 [ main ] cleaning up connection pool: jdbc:mysql://localhost/hibernate
+  2016-04-23 18:23:30 [ main ] Hibernate Annotations 3.2.0.GA
+  2016-04-23 18:23:30 [ main ] Hibernate 3.3.2.GA
+  2016-04-23 18:23:30 [ main ] hibernate.properties not found
+  2016-04-23 18:23:30 [ main ] Bytecode provider name : javassist
+  2016-04-23 18:23:30 [ main ] using JDK 1.4 java.sql.Timestamp handling
+  2016-04-23 18:23:30 [ main ] configuring from resource: /hibernate.cfg.xml
+  2016-04-23 18:23:30 [ main ] Configuration resource: /hibernate.cfg.xml
+  2016-04-23 18:23:30 [ main ] Reading mappings from resource : com/hibernate/model/Student.hbm.xml
+  2016-04-23 18:23:32 [ main ] Configured SessionFactory: null
+  2016-04-23 18:23:32 [ main ] Mapping class: com.hibernate.model.Student -> student
+  2016-04-23 18:23:32 [ main ] Using Hibernate built-in connection pool (not for production use!)
+  2016-04-23 18:23:32 [ main ] Hibernate connection pool size: 20
+  2016-04-23 18:23:32 [ main ] autocommit mode: false
+  2016-04-23 18:23:32 [ main ] using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost/hibernate
+  2016-04-23 18:23:32 [ main ] connection properties: {user=root, password=****}
+  2016-04-23 18:23:33 [ main ] RDBMS: MySQL, version: 5.7.9-log
+  2016-04-23 18:23:33 [ main ] JDBC driver: MySQL Connector Java, version: mysql-connector-java-5.1.37 ( Revision: 09940f05b4c98150f352e787a2549f11a2e9da93 )
+  2016-04-23 18:23:33 [ main ] Using dialect: org.hibernate.dialect.MySQLDialect
+  2016-04-23 18:23:33 [ main ] Using default transaction strategy (direct JDBC transactions)
+  2016-04-23 18:23:33 [ main ] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+  2016-04-23 18:23:33 [ main ] Automatic flush during beforeCompletion(): disabled
+  2016-04-23 18:23:33 [ main ] Automatic session close at end of transaction: disabled
+  2016-04-23 18:23:33 [ main ] JDBC batch size: 15
+  2016-04-23 18:23:33 [ main ] JDBC batch updates for versioned data: disabled
+  2016-04-23 18:23:33 [ main ] Scrollable result sets: enabled
+  2016-04-23 18:23:33 [ main ] JDBC3 getGeneratedKeys(): enabled
+  2016-04-23 18:23:33 [ main ] Connection release mode: auto
+  2016-04-23 18:23:33 [ main ] Maximum outer join fetch depth: 2
+  2016-04-23 18:23:33 [ main ] Default batch fetch size: 1
+  2016-04-23 18:23:33 [ main ] Generate SQL with comments: disabled
+  2016-04-23 18:23:33 [ main ] Order SQL updates by primary key: disabled
+  2016-04-23 18:23:33 [ main ] Order SQL inserts for batching: disabled
+  2016-04-23 18:23:33 [ main ] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+  2016-04-23 18:23:33 [ main ] Using ASTQueryTranslatorFactory
+  2016-04-23 18:23:33 [ main ] Query language substitutions: {}
+  2016-04-23 18:23:33 [ main ] JPA-QL strict compliance: disabled
+  2016-04-23 18:23:33 [ main ] Second-level cache: enabled
+  2016-04-23 18:23:33 [ main ] Query cache: disabled
+  2016-04-23 18:23:33 [ main ] Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+  2016-04-23 18:23:33 [ main ] Cache provider: org.hibernate.cache.NoCacheProvider
+  2016-04-23 18:23:33 [ main ] Optimize cache for minimal puts: disabled
+  2016-04-23 18:23:33 [ main ] Structured second-level cache entries: disabled
+  2016-04-23 18:23:33 [ main ] Echoing all SQL to stdout
+  2016-04-23 18:23:33 [ main ] Statistics: disabled
+  2016-04-23 18:23:33 [ main ] Deleted entity synthetic identifier rollback: disabled
+  2016-04-23 18:23:33 [ main ] Default entity-mode: pojo
+  2016-04-23 18:23:33 [ main ] Named query checking : enabled
+  2016-04-23 18:23:33 [ main ] building session factory
+  2016-04-23 18:23:33 [ main ] Not binding factory to JNDI, no JNDI name configured
+  2016-04-23 18:23:33 [ main ] Running hbm2ddl schema update
+  2016-04-23 18:23:33 [ main ] fetching database metadata
+  2016-04-23 18:23:33 [ main ] updating schema
+  2016-04-23 18:23:33 [ main ] table found: hibernate.student
+  2016-04-23 18:23:33 [ main ] columns: [name, id, age]
+  2016-04-23 18:23:33 [ main ] foreign keys: []
+  2016-04-23 18:23:33 [ main ] indexes: [primary]
+  2016-04-23 18:23:33 [ main ] schema update complete
+  2016-04-23 18:23:33 [ main ] closing
+  2016-04-23 18:23:33 [ main ] cleaning up connection pool: jdbc:mysql://localhost/hibernate
+  2016-04-23 18:43:05 [ main ] Hibernate Annotations 3.2.0.GA
+  2016-04-23 18:43:05 [ main ] Hibernate 3.3.2.GA
+  2016-04-23 18:43:05 [ main ] hibernate.properties not found
+  2016-04-23 18:43:05 [ main ] Bytecode provider name : javassist
+  2016-04-23 18:43:05 [ main ] using JDK 1.4 java.sql.Timestamp handling
+  2016-04-23 18:43:05 [ main ] configuring from resource: /hibernate.cfg.xml
+  2016-04-23 18:43:05 [ main ] Configuration resource: /hibernate.cfg.xml
+  2016-04-23 18:43:06 [ main ] Reading mappings from resource : com/hibernate/model/Student.hbm.xml
+  2016-04-23 18:43:09 [ main ] Configured SessionFactory: null
+  2016-04-23 18:43:09 [ main ] Mapping class: com.hibernate.model.Student -> student
+  2016-04-23 18:43:09 [ main ] Using Hibernate built-in connection pool (not for production use!)
+  2016-04-23 18:43:09 [ main ] Hibernate connection pool size: 20
+  2016-04-23 18:43:09 [ main ] autocommit mode: false
+  2016-04-23 18:43:09 [ main ] using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost/hibernate
+  2016-04-23 18:43:09 [ main ] connection properties: {user=root, password=****}
+  2016-04-23 18:43:10 [ main ] RDBMS: MySQL, version: 5.7.9-log
+  2016-04-23 18:43:10 [ main ] JDBC driver: MySQL Connector Java, version: mysql-connector-java-5.1.37 ( Revision: 09940f05b4c98150f352e787a2549f11a2e9da93 )
+  2016-04-23 18:43:10 [ main ] Using dialect: org.hibernate.dialect.MySQLDialect
+  2016-04-23 18:43:10 [ main ] Using default transaction strategy (direct JDBC transactions)
+  2016-04-23 18:43:10 [ main ] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+  2016-04-23 18:43:10 [ main ] Automatic flush during beforeCompletion(): disabled
+  2016-04-23 18:43:10 [ main ] Automatic session close at end of transaction: disabled
+  2016-04-23 18:43:10 [ main ] JDBC batch size: 15
+  2016-04-23 18:43:10 [ main ] JDBC batch updates for versioned data: disabled
+  2016-04-23 18:43:10 [ main ] Scrollable result sets: enabled
+  2016-04-23 18:43:10 [ main ] JDBC3 getGeneratedKeys(): enabled
+  2016-04-23 18:43:10 [ main ] Connection release mode: auto
+  2016-04-23 18:43:10 [ main ] Maximum outer join fetch depth: 2
+  2016-04-23 18:43:10 [ main ] Default batch fetch size: 1
+  2016-04-23 18:43:10 [ main ] Generate SQL with comments: disabled
+  2016-04-23 18:43:10 [ main ] Order SQL updates by primary key: disabled
+  2016-04-23 18:43:10 [ main ] Order SQL inserts for batching: disabled
+  2016-04-23 18:43:10 [ main ] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+  2016-04-23 18:43:10 [ main ] Using ASTQueryTranslatorFactory
+  2016-04-23 18:43:10 [ main ] Query language substitutions: {}
+  2016-04-23 18:43:10 [ main ] JPA-QL strict compliance: disabled
+  2016-04-23 18:43:10 [ main ] Second-level cache: enabled
+  2016-04-23 18:43:10 [ main ] Query cache: disabled
+  2016-04-23 18:43:10 [ main ] Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+  2016-04-23 18:43:10 [ main ] Cache provider: org.hibernate.cache.NoCacheProvider
+  2016-04-23 18:43:10 [ main ] Optimize cache for minimal puts: disabled
+  2016-04-23 18:43:10 [ main ] Structured second-level cache entries: disabled
+  2016-04-23 18:43:10 [ main ] Echoing all SQL to stdout
+  2016-04-23 18:43:10 [ main ] Statistics: disabled
+  2016-04-23 18:43:10 [ main ] Deleted entity synthetic identifier rollback: disabled
+  2016-04-23 18:43:10 [ main ] Default entity-mode: pojo
+  2016-04-23 18:43:10 [ main ] Named query checking : enabled
+  2016-04-23 18:43:10 [ main ] building session factory
+  2016-04-23 18:43:10 [ main ] Not binding factory to JNDI, no JNDI name configured
+  2016-04-23 18:43:10 [ main ] Running hbm2ddl schema update
+  2016-04-23 18:43:10 [ main ] fetching database metadata
+  2016-04-23 18:43:10 [ main ] updating schema
+  2016-04-23 18:43:10 [ main ] table found: hibernate.student
+  2016-04-23 18:43:10 [ main ] columns: [name, id, age]
+  2016-04-23 18:43:10 [ main ] foreign keys: []
+  2016-04-23 18:43:10 [ main ] indexes: [primary]
+  2016-04-23 18:43:10 [ main ] schema update complete
+  2016-04-23 18:43:10 [ main ] SQL Error: 1062, SQLState: 23000
+  2016-04-23 18:43:10 [ main ] Duplicate entry '9-aaa' for key 'PRIMARY'
+  2016-04-23 18:43:10 [ main ] Could not synchronize database state with session
+  org.hibernate.exception.ConstraintViolationException: Could not execute JDBC batch update
+	at org.hibernate.exception.SQLStateConverter.convert(SQLStateConverter.java:94)
+	at org.hibernate.exception.JDBCExceptionHelper.convert(JDBCExceptionHelper.java:66)
+	at org.hibernate.jdbc.AbstractBatcher.executeBatch(AbstractBatcher.java:275)
+	at org.hibernate.engine.ActionQueue.executeActions(ActionQueue.java:266)
+	at org.hibernate.engine.ActionQueue.executeActions(ActionQueue.java:167)
+	at org.hibernate.event.def.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:321)
+	at org.hibernate.event.def.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:50)
+	at org.hibernate.impl.SessionImpl.flush(SessionImpl.java:1028)
+	at org.hibernate.impl.SessionImpl.managedFlush(SessionImpl.java:366)
+	at org.hibernate.transaction.JDBCTransaction.commit(JDBCTransaction.java:137)
+	at com.hibernate.test.HibernateIDTest.testStudentSave(HibernateIDTest.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:76)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: java.sql.BatchUpdateException: Duplicate entry '9-aaa' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+	at com.mysql.jdbc.Util.getInstance(Util.java:387)
+	at com.mysql.jdbc.SQLError.createBatchUpdateException(SQLError.java:1160)
+	at com.mysql.jdbc.PreparedStatement.executeBatchSerially(PreparedStatement.java:1773)
+	at com.mysql.jdbc.PreparedStatement.executeBatchInternal(PreparedStatement.java:1257)
+	at com.mysql.jdbc.StatementImpl.executeBatch(StatementImpl.java:959)
+	at org.hibernate.jdbc.BatchingBatcher.doExecuteBatch(BatchingBatcher.java:70)
+	at org.hibernate.jdbc.AbstractBatcher.executeBatch(AbstractBatcher.java:268)
+	... 32 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '9-aaa' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+	at com.mysql.jdbc.Util.getInstance(Util.java:387)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:934)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3870)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3806)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2470)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2617)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2550)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1861)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2073)
+	at com.mysql.jdbc.PreparedStatement.executeBatchSerially(PreparedStatement.java:1751)
+	... 36 more
+2016-04-23 18:43:10 [ main ] closing
+  2016-04-23 18:43:10 [ main ] cleaning up connection pool: jdbc:mysql://localhost/hibernate
+  2016-04-23 18:44:19 [ main ] Hibernate Annotations 3.2.0.GA
+  2016-04-23 18:44:19 [ main ] Hibernate 3.3.2.GA
+  2016-04-23 18:44:19 [ main ] hibernate.properties not found
+  2016-04-23 18:44:19 [ main ] Bytecode provider name : javassist
+  2016-04-23 18:44:19 [ main ] using JDK 1.4 java.sql.Timestamp handling
+  2016-04-23 18:44:19 [ main ] configuring from resource: /hibernate.cfg.xml
+  2016-04-23 18:44:19 [ main ] Configuration resource: /hibernate.cfg.xml
+  2016-04-23 18:44:19 [ main ] Reading mappings from resource : com/hibernate/model/Student.hbm.xml
+  2016-04-23 18:44:22 [ main ] Configured SessionFactory: null
+  2016-04-23 18:44:22 [ main ] Mapping class: com.hibernate.model.Student -> student
+  2016-04-23 18:44:22 [ main ] Using Hibernate built-in connection pool (not for production use!)
+  2016-04-23 18:44:22 [ main ] Hibernate connection pool size: 20
+  2016-04-23 18:44:22 [ main ] autocommit mode: false
+  2016-04-23 18:44:22 [ main ] using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost/hibernate
+  2016-04-23 18:44:22 [ main ] connection properties: {user=root, password=****}
+  2016-04-23 18:44:22 [ main ] RDBMS: MySQL, version: 5.7.9-log
+  2016-04-23 18:44:22 [ main ] JDBC driver: MySQL Connector Java, version: mysql-connector-java-5.1.37 ( Revision: 09940f05b4c98150f352e787a2549f11a2e9da93 )
+  2016-04-23 18:44:22 [ main ] Using dialect: org.hibernate.dialect.MySQLDialect
+  2016-04-23 18:44:22 [ main ] Using default transaction strategy (direct JDBC transactions)
+  2016-04-23 18:44:22 [ main ] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+  2016-04-23 18:44:22 [ main ] Automatic flush during beforeCompletion(): disabled
+  2016-04-23 18:44:22 [ main ] Automatic session close at end of transaction: disabled
+  2016-04-23 18:44:22 [ main ] JDBC batch size: 15
+  2016-04-23 18:44:22 [ main ] JDBC batch updates for versioned data: disabled
+  2016-04-23 18:44:22 [ main ] Scrollable result sets: enabled
+  2016-04-23 18:44:22 [ main ] JDBC3 getGeneratedKeys(): enabled
+  2016-04-23 18:44:22 [ main ] Connection release mode: auto
+  2016-04-23 18:44:22 [ main ] Maximum outer join fetch depth: 2
+  2016-04-23 18:44:22 [ main ] Default batch fetch size: 1
+  2016-04-23 18:44:22 [ main ] Generate SQL with comments: disabled
+  2016-04-23 18:44:22 [ main ] Order SQL updates by primary key: disabled
+  2016-04-23 18:44:22 [ main ] Order SQL inserts for batching: disabled
+  2016-04-23 18:44:22 [ main ] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+  2016-04-23 18:44:22 [ main ] Using ASTQueryTranslatorFactory
+  2016-04-23 18:44:22 [ main ] Query language substitutions: {}
+  2016-04-23 18:44:22 [ main ] JPA-QL strict compliance: disabled
+  2016-04-23 18:44:22 [ main ] Second-level cache: enabled
+  2016-04-23 18:44:22 [ main ] Query cache: disabled
+  2016-04-23 18:44:22 [ main ] Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+  2016-04-23 18:44:22 [ main ] Cache provider: org.hibernate.cache.NoCacheProvider
+  2016-04-23 18:44:22 [ main ] Optimize cache for minimal puts: disabled
+  2016-04-23 18:44:22 [ main ] Structured second-level cache entries: disabled
+  2016-04-23 18:44:22 [ main ] Echoing all SQL to stdout
+  2016-04-23 18:44:22 [ main ] Statistics: disabled
+  2016-04-23 18:44:22 [ main ] Deleted entity synthetic identifier rollback: disabled
+  2016-04-23 18:44:22 [ main ] Default entity-mode: pojo
+  2016-04-23 18:44:22 [ main ] Named query checking : enabled
+  2016-04-23 18:44:22 [ main ] building session factory
+  2016-04-23 18:44:22 [ main ] Not binding factory to JNDI, no JNDI name configured
+  2016-04-23 18:44:23 [ main ] Running hbm2ddl schema update
+  2016-04-23 18:44:23 [ main ] fetching database metadata
+  2016-04-23 18:44:23 [ main ] updating schema
+  2016-04-23 18:44:23 [ main ] table found: hibernate.student
+  2016-04-23 18:44:23 [ main ] columns: [name, id, age]
+  2016-04-23 18:44:23 [ main ] foreign keys: []
+  2016-04-23 18:44:23 [ main ] indexes: [primary]
+  2016-04-23 18:44:23 [ main ] schema update complete
+  2016-04-23 18:44:23 [ main ] closing
+  2016-04-23 18:44:23 [ main ] cleaning up connection pool: jdbc:mysql://localhost/hibernate
+  2016-04-23 18:46:34 [ main ] Hibernate Annotations 3.2.0.GA
+  2016-04-23 18:46:34 [ main ] Hibernate 3.3.2.GA
+  2016-04-23 18:46:34 [ main ] hibernate.properties not found
+  2016-04-23 18:46:34 [ main ] Bytecode provider name : javassist
+  2016-04-23 18:46:34 [ main ] using JDK 1.4 java.sql.Timestamp handling
+  2016-04-23 18:46:34 [ main ] configuring from resource: /hibernate.cfg.xml
+  2016-04-23 18:46:34 [ main ] Configuration resource: /hibernate.cfg.xml
+  2016-04-23 18:46:34 [ main ] Reading mappings from resource : com/hibernate/model/Student.hbm.xml
+  2016-04-23 18:46:37 [ main ] Configured SessionFactory: null
+  2016-04-23 18:46:37 [ main ] Mapping class: com.hibernate.model.Student -> student
+  2016-04-23 18:46:37 [ main ] Using Hibernate built-in connection pool (not for production use!)
+  2016-04-23 18:46:37 [ main ] Hibernate connection pool size: 20
+  2016-04-23 18:46:37 [ main ] autocommit mode: false
+  2016-04-23 18:46:37 [ main ] using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost/hibernate
+  2016-04-23 18:46:37 [ main ] connection properties: {user=root, password=****}
+  2016-04-23 18:46:37 [ main ] RDBMS: MySQL, version: 5.7.9-log
+  2016-04-23 18:46:37 [ main ] JDBC driver: MySQL Connector Java, version: mysql-connector-java-5.1.37 ( Revision: 09940f05b4c98150f352e787a2549f11a2e9da93 )
+  2016-04-23 18:46:37 [ main ] Using dialect: org.hibernate.dialect.MySQLDialect
+  2016-04-23 18:46:37 [ main ] Using default transaction strategy (direct JDBC transactions)
+  2016-04-23 18:46:37 [ main ] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+  2016-04-23 18:46:37 [ main ] Automatic flush during beforeCompletion(): disabled
+  2016-04-23 18:46:37 [ main ] Automatic session close at end of transaction: disabled
+  2016-04-23 18:46:37 [ main ] JDBC batch size: 15
+  2016-04-23 18:46:37 [ main ] JDBC batch updates for versioned data: disabled
+  2016-04-23 18:46:37 [ main ] Scrollable result sets: enabled
+  2016-04-23 18:46:37 [ main ] JDBC3 getGeneratedKeys(): enabled
+  2016-04-23 18:46:37 [ main ] Connection release mode: auto
+  2016-04-23 18:46:37 [ main ] Maximum outer join fetch depth: 2
+  2016-04-23 18:46:37 [ main ] Default batch fetch size: 1
+  2016-04-23 18:46:37 [ main ] Generate SQL with comments: disabled
+  2016-04-23 18:46:37 [ main ] Order SQL updates by primary key: disabled
+  2016-04-23 18:46:37 [ main ] Order SQL inserts for batching: disabled
+  2016-04-23 18:46:37 [ main ] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+  2016-04-23 18:46:37 [ main ] Using ASTQueryTranslatorFactory
+  2016-04-23 18:46:37 [ main ] Query language substitutions: {}
+  2016-04-23 18:46:37 [ main ] JPA-QL strict compliance: disabled
+  2016-04-23 18:46:37 [ main ] Second-level cache: enabled
+  2016-04-23 18:46:37 [ main ] Query cache: disabled
+  2016-04-23 18:46:37 [ main ] Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+  2016-04-23 18:46:37 [ main ] Cache provider: org.hibernate.cache.NoCacheProvider
+  2016-04-23 18:46:37 [ main ] Optimize cache for minimal puts: disabled
+  2016-04-23 18:46:37 [ main ] Structured second-level cache entries: disabled
+  2016-04-23 18:46:37 [ main ] Echoing all SQL to stdout
+  2016-04-23 18:46:37 [ main ] Statistics: disabled
+  2016-04-23 18:46:37 [ main ] Deleted entity synthetic identifier rollback: disabled
+  2016-04-23 18:46:37 [ main ] Default entity-mode: pojo
+  2016-04-23 18:46:37 [ main ] Named query checking : enabled
+  2016-04-23 18:46:37 [ main ] building session factory
+  2016-04-23 18:46:38 [ main ] Not binding factory to JNDI, no JNDI name configured
+  2016-04-23 18:46:38 [ main ] Running hbm2ddl schema update
+  2016-04-23 18:46:38 [ main ] fetching database metadata
+  2016-04-23 18:46:38 [ main ] updating schema
+  2016-04-23 18:46:38 [ main ] table found: hibernate.student
+  2016-04-23 18:46:38 [ main ] columns: [name, id, age]
+  2016-04-23 18:46:38 [ main ] foreign keys: []
+  2016-04-23 18:46:38 [ main ] indexes: [primary]
+  2016-04-23 18:46:38 [ main ] schema update complete
+  2016-04-23 18:46:38 [ main ] closing
+  2016-04-23 18:46:38 [ main ] cleaning up connection pool: jdbc:mysql://localhost/hibernate
+  2016-04-23 19:45:44 [ main ] Hibernate Annotations 3.2.0.GA
+  2016-04-23 19:45:44 [ main ] Hibernate 3.3.2.GA
+  2016-04-23 19:45:44 [ main ] hibernate.properties not found
+  2016-04-23 19:45:44 [ main ] Bytecode provider name : javassist
+  2016-04-23 19:45:44 [ main ] using JDK 1.4 java.sql.Timestamp handling
+  2016-04-23 19:45:44 [ main ] configuring from resource: /hibernate.cfg.xml
+  2016-04-23 19:45:44 [ main ] Configuration resource: /hibernate.cfg.xml
+  2016-04-23 19:45:44 [ main ] Reading mappings from resource : com/hibernate/model/Student.hbm.xml
+  2016-04-23 19:45:50 [ main ] Configured SessionFactory: null
+  2016-04-23 19:45:50 [ main ] Mapping class: com.hibernate.model.Student -> student
+  2016-04-23 19:45:50 [ main ] Using Hibernate built-in connection pool (not for production use!)
+  2016-04-23 19:45:50 [ main ] Hibernate connection pool size: 20
+  2016-04-23 19:45:50 [ main ] autocommit mode: false
+  2016-04-23 19:45:50 [ main ] using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost/hibernate
+  2016-04-23 19:45:50 [ main ] connection properties: {user=root, password=****}
+  2016-04-23 19:45:51 [ main ] RDBMS: MySQL, version: 5.7.9-log
+  2016-04-23 19:45:51 [ main ] JDBC driver: MySQL Connector Java, version: mysql-connector-java-5.1.37 ( Revision: 09940f05b4c98150f352e787a2549f11a2e9da93 )
+  2016-04-23 19:45:51 [ main ] Using dialect: org.hibernate.dialect.MySQLDialect
+  2016-04-23 19:45:51 [ main ] Using default transaction strategy (direct JDBC transactions)
+  2016-04-23 19:45:51 [ main ] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+  2016-04-23 19:45:51 [ main ] Automatic flush during beforeCompletion(): disabled
+  2016-04-23 19:45:51 [ main ] Automatic session close at end of transaction: disabled
+  2016-04-23 19:45:51 [ main ] JDBC batch size: 15
+  2016-04-23 19:45:51 [ main ] JDBC batch updates for versioned data: disabled
+  2016-04-23 19:45:51 [ main ] Scrollable result sets: enabled
+  2016-04-23 19:45:51 [ main ] JDBC3 getGeneratedKeys(): enabled
+  2016-04-23 19:45:51 [ main ] Connection release mode: auto
+  2016-04-23 19:45:51 [ main ] Maximum outer join fetch depth: 2
+  2016-04-23 19:45:51 [ main ] Default batch fetch size: 1
+  2016-04-23 19:45:51 [ main ] Generate SQL with comments: disabled
+  2016-04-23 19:45:51 [ main ] Order SQL updates by primary key: disabled
+  2016-04-23 19:45:51 [ main ] Order SQL inserts for batching: disabled
+  2016-04-23 19:45:51 [ main ] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+  2016-04-23 19:45:51 [ main ] Using ASTQueryTranslatorFactory
+  2016-04-23 19:45:51 [ main ] Query language substitutions: {}
+  2016-04-23 19:45:51 [ main ] JPA-QL strict compliance: disabled
+  2016-04-23 19:45:51 [ main ] Second-level cache: enabled
+  2016-04-23 19:45:51 [ main ] Query cache: disabled
+  2016-04-23 19:45:51 [ main ] Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+  2016-04-23 19:45:51 [ main ] Cache provider: org.hibernate.cache.NoCacheProvider
+  2016-04-23 19:45:51 [ main ] Optimize cache for minimal puts: disabled
+  2016-04-23 19:45:51 [ main ] Structured second-level cache entries: disabled
+  2016-04-23 19:45:51 [ main ] Echoing all SQL to stdout
+  2016-04-23 19:45:51 [ main ] Statistics: disabled
+  2016-04-23 19:45:51 [ main ] Deleted entity synthetic identifier rollback: disabled
+  2016-04-23 19:45:51 [ main ] Default entity-mode: pojo
+  2016-04-23 19:45:51 [ main ] Named query checking : enabled
+  2016-04-23 19:45:51 [ main ] building session factory
+  2016-04-23 19:45:51 [ main ] Not binding factory to JNDI, no JNDI name configured
+  2016-04-23 19:45:51 [ main ] Running hbm2ddl schema update
+  2016-04-23 19:45:51 [ main ] fetching database metadata
+  2016-04-23 19:45:51 [ main ] updating schema
+  2016-04-23 19:45:51 [ main ] table found: hibernate.student
+  2016-04-23 19:45:51 [ main ] columns: [name, id, age]
+  2016-04-23 19:45:51 [ main ] foreign keys: []
+  2016-04-23 19:45:51 [ main ] indexes: [primary]
+  2016-04-23 19:45:51 [ main ] schema update complete
+  2016-04-23 20:32:53 [ main ] Hibernate Annotations 3.2.0.GA
+  2016-04-23 20:32:53 [ main ] Hibernate 3.3.2.GA
+  2016-04-23 20:32:53 [ main ] hibernate.properties not found
+  2016-04-23 20:32:53 [ main ] Bytecode provider name : javassist
+  2016-04-23 20:32:53 [ main ] using JDK 1.4 java.sql.Timestamp handling
+  2016-04-23 20:32:53 [ main ] configuring from resource: /hibernate.cfg.xml
+  2016-04-23 20:32:53 [ main ] Configuration resource: /hibernate.cfg.xml
+  2016-04-23 20:32:53 [ main ] Reading mappings from resource : com/hibernate/model/Student.hbm.xml
+  2016-04-23 20:32:55 [ main ] Configured SessionFactory: null
+  2016-04-23 20:32:55 [ main ] Mapping class: com.hibernate.model.Student -> student
+  2016-04-23 20:32:55 [ main ] Using Hibernate built-in connection pool (not for production use!)
+  2016-04-23 20:32:55 [ main ] Hibernate connection pool size: 20
+  2016-04-23 20:32:55 [ main ] autocommit mode: false
+  2016-04-23 20:32:55 [ main ] using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost/hibernate
+  2016-04-23 20:32:55 [ main ] connection properties: {user=root, password=****}
+  2016-04-23 20:32:56 [ main ] RDBMS: MySQL, version: 5.7.9-log
+  2016-04-23 20:32:56 [ main ] JDBC driver: MySQL Connector Java, version: mysql-connector-java-5.1.37 ( Revision: 09940f05b4c98150f352e787a2549f11a2e9da93 )
+  2016-04-23 20:32:56 [ main ] Using dialect: org.hibernate.dialect.MySQLDialect
+  2016-04-23 20:32:56 [ main ] Using default transaction strategy (direct JDBC transactions)
+  2016-04-23 20:32:56 [ main ] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+  2016-04-23 20:32:56 [ main ] Automatic flush during beforeCompletion(): disabled
+  2016-04-23 20:32:56 [ main ] Automatic session close at end of transaction: disabled
+  2016-04-23 20:32:56 [ main ] JDBC batch size: 15
+  2016-04-23 20:32:56 [ main ] JDBC batch updates for versioned data: disabled
+  2016-04-23 20:32:56 [ main ] Scrollable result sets: enabled
+  2016-04-23 20:32:56 [ main ] JDBC3 getGeneratedKeys(): enabled
+  2016-04-23 20:32:56 [ main ] Connection release mode: auto
+  2016-04-23 20:32:56 [ main ] Maximum outer join fetch depth: 2
+  2016-04-23 20:32:56 [ main ] Default batch fetch size: 1
+  2016-04-23 20:32:56 [ main ] Generate SQL with comments: disabled
+  2016-04-23 20:32:56 [ main ] Order SQL updates by primary key: disabled
+  2016-04-23 20:32:56 [ main ] Order SQL inserts for batching: disabled
+  2016-04-23 20:32:56 [ main ] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+  2016-04-23 20:32:56 [ main ] Using ASTQueryTranslatorFactory
+  2016-04-23 20:32:56 [ main ] Query language substitutions: {}
+  2016-04-23 20:32:56 [ main ] JPA-QL strict compliance: disabled
+  2016-04-23 20:32:56 [ main ] Second-level cache: enabled
+  2016-04-23 20:32:56 [ main ] Query cache: disabled
+  2016-04-23 20:32:56 [ main ] Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+  2016-04-23 20:32:56 [ main ] Cache provider: org.hibernate.cache.NoCacheProvider
+  2016-04-23 20:32:56 [ main ] Optimize cache for minimal puts: disabled
+  2016-04-23 20:32:56 [ main ] Structured second-level cache entries: disabled
+  2016-04-23 20:32:56 [ main ] Echoing all SQL to stdout
+  2016-04-23 20:32:56 [ main ] Statistics: disabled
+  2016-04-23 20:32:56 [ main ] Deleted entity synthetic identifier rollback: disabled
+  2016-04-23 20:32:56 [ main ] Default entity-mode: pojo
+  2016-04-23 20:32:56 [ main ] Named query checking : enabled
+  2016-04-23 20:32:56 [ main ] building session factory
+  2016-04-23 20:32:56 [ main ] Not binding factory to JNDI, no JNDI name configured
+  2016-04-23 20:32:56 [ main ] Running hbm2ddl schema update
+  2016-04-23 20:32:56 [ main ] fetching database metadata
+  2016-04-23 20:32:56 [ main ] updating schema
+  2016-04-23 20:32:56 [ main ] table found: hibernate.student
+  2016-04-23 20:32:56 [ main ] columns: [name, id, age]
+  2016-04-23 20:32:56 [ main ] foreign keys: []
+  2016-04-23 20:32:56 [ main ] indexes: [primary]
+  2016-04-23 20:32:56 [ main ] schema update complete
+  2016-04-23 20:32:56 [ main ] closing
+  2016-04-23 20:32:56 [ main ] cleaning up connection pool: jdbc:mysql://localhost/hibernate
+  2016-04-23 20:36:59 [ main ] Hibernate Annotations 3.2.0.GA
+  2016-04-23 20:36:59 [ main ] Hibernate 3.3.2.GA
+  2016-04-23 20:36:59 [ main ] hibernate.properties not found
+  2016-04-23 20:36:59 [ main ] Bytecode provider name : javassist
+  2016-04-23 20:36:59 [ main ] using JDK 1.4 java.sql.Timestamp handling
+  2016-04-23 20:36:59 [ main ] configuring from resource: /hibernate.cfg.xml
+  2016-04-23 20:36:59 [ main ] Configuration resource: /hibernate.cfg.xml
+  2016-04-23 20:36:59 [ main ] Reading mappings from resource : com/hibernate/model/Student.hbm.xml
+  2016-04-23 20:37:04 [ main ] Configured SessionFactory: null
+  2016-04-23 20:37:04 [ main ] Mapping class: com.hibernate.model.Student -> student
+  2016-04-23 20:37:05 [ main ] Using Hibernate built-in connection pool (not for production use!)
+  2016-04-23 20:37:05 [ main ] Hibernate connection pool size: 20
+  2016-04-23 20:37:05 [ main ] autocommit mode: false
+  2016-04-23 20:37:05 [ main ] using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost/hibernate
+  2016-04-23 20:37:05 [ main ] connection properties: {user=root, password=****}
+  2016-04-23 20:37:05 [ main ] RDBMS: MySQL, version: 5.7.9-log
+  2016-04-23 20:37:05 [ main ] JDBC driver: MySQL Connector Java, version: mysql-connector-java-5.1.37 ( Revision: 09940f05b4c98150f352e787a2549f11a2e9da93 )
+  2016-04-23 20:37:05 [ main ] Using dialect: org.hibernate.dialect.MySQLDialect
+  2016-04-23 20:37:05 [ main ] Using default transaction strategy (direct JDBC transactions)
+  2016-04-23 20:37:05 [ main ] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+  2016-04-23 20:37:05 [ main ] Automatic flush during beforeCompletion(): disabled
+  2016-04-23 20:37:05 [ main ] Automatic session close at end of transaction: disabled
+  2016-04-23 20:37:05 [ main ] JDBC batch size: 15
+  2016-04-23 20:37:05 [ main ] JDBC batch updates for versioned data: disabled
+  2016-04-23 20:37:05 [ main ] Scrollable result sets: enabled
+  2016-04-23 20:37:05 [ main ] JDBC3 getGeneratedKeys(): enabled
+  2016-04-23 20:37:05 [ main ] Connection release mode: auto
+  2016-04-23 20:37:05 [ main ] Maximum outer join fetch depth: 2
+  2016-04-23 20:37:05 [ main ] Default batch fetch size: 1
+  2016-04-23 20:37:05 [ main ] Generate SQL with comments: disabled
+  2016-04-23 20:37:05 [ main ] Order SQL updates by primary key: disabled
+  2016-04-23 20:37:05 [ main ] Order SQL inserts for batching: disabled
+  2016-04-23 20:37:05 [ main ] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+  2016-04-23 20:37:05 [ main ] Using ASTQueryTranslatorFactory
+  2016-04-23 20:37:05 [ main ] Query language substitutions: {}
+  2016-04-23 20:37:05 [ main ] JPA-QL strict compliance: disabled
+  2016-04-23 20:37:05 [ main ] Second-level cache: enabled
+  2016-04-23 20:37:05 [ main ] Query cache: disabled
+  2016-04-23 20:37:05 [ main ] Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+  2016-04-23 20:37:05 [ main ] Cache provider: org.hibernate.cache.NoCacheProvider
+  2016-04-23 20:37:05 [ main ] Optimize cache for minimal puts: disabled
+  2016-04-23 20:37:05 [ main ] Structured second-level cache entries: disabled
+  2016-04-23 20:37:05 [ main ] Echoing all SQL to stdout
+  2016-04-23 20:37:05 [ main ] Statistics: disabled
+  2016-04-23 20:37:05 [ main ] Deleted entity synthetic identifier rollback: disabled
+  2016-04-23 20:37:05 [ main ] Default entity-mode: pojo
+  2016-04-23 20:37:05 [ main ] Named query checking : enabled
+  2016-04-23 20:37:05 [ main ] building session factory
+  2016-04-23 20:37:05 [ main ] Not binding factory to JNDI, no JNDI name configured
+  2016-04-23 20:37:05 [ main ] Running hbm2ddl schema update
+  2016-04-23 20:37:05 [ main ] fetching database metadata
+  2016-04-23 20:37:05 [ main ] updating schema
+  2016-04-23 20:37:05 [ main ] table found: hibernate.student
+  2016-04-23 20:37:05 [ main ] columns: [name, id, age]
+  2016-04-23 20:37:05 [ main ] foreign keys: []
+  2016-04-23 20:37:05 [ main ] indexes: [primary]
+  2016-04-23 20:37:05 [ main ] schema update complete
+  2016-04-23 20:37:05 [ main ] closing
+  2016-04-23 20:37:05 [ main ] cleaning up connection pool: jdbc:mysql://localhost/hibernate
+  2016-04-23 20:39:40 [ main ] Hibernate Annotations 3.2.0.GA
+  2016-04-23 20:39:40 [ main ] Hibernate 3.3.2.GA
+  2016-04-23 20:39:40 [ main ] hibernate.properties not found
+  2016-04-23 20:39:40 [ main ] Bytecode provider name : javassist
+  2016-04-23 20:39:40 [ main ] using JDK 1.4 java.sql.Timestamp handling
+  2016-04-23 20:39:40 [ main ] configuring from resource: /hibernate.cfg.xml
+  2016-04-23 20:39:40 [ main ] Configuration resource: /hibernate.cfg.xml
+  2016-04-23 20:39:40 [ main ] Reading mappings from resource : com/hibernate/model/Student.hbm.xml
+  2016-04-23 20:39:43 [ main ] Configured SessionFactory: null
+  2016-04-23 20:39:43 [ main ] Mapping class: com.hibernate.model.Student -> student
+  2016-04-23 20:39:43 [ main ] Using Hibernate built-in connection pool (not for production use!)
+  2016-04-23 20:39:43 [ main ] Hibernate connection pool size: 1
+  2016-04-23 20:39:43 [ main ] autocommit mode: false
+  2016-04-23 20:39:44 [ main ] using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost/hibernate
+  2016-04-23 20:39:44 [ main ] connection properties: {user=root, password=****}
+  2016-04-23 20:39:44 [ main ] RDBMS: MySQL, version: 5.7.9-log
+  2016-04-23 20:39:44 [ main ] JDBC driver: MySQL Connector Java, version: mysql-connector-java-5.1.37 ( Revision: 09940f05b4c98150f352e787a2549f11a2e9da93 )
+  2016-04-23 20:39:44 [ main ] Using dialect: org.hibernate.dialect.MySQLDialect
+  2016-04-23 20:39:44 [ main ] Using default transaction strategy (direct JDBC transactions)
+  2016-04-23 20:39:44 [ main ] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+  2016-04-23 20:39:44 [ main ] Automatic flush during beforeCompletion(): disabled
+  2016-04-23 20:39:44 [ main ] Automatic session close at end of transaction: disabled
+  2016-04-23 20:39:44 [ main ] JDBC batch size: 15
+  2016-04-23 20:39:44 [ main ] JDBC batch updates for versioned data: disabled
+  2016-04-23 20:39:44 [ main ] Scrollable result sets: enabled
+  2016-04-23 20:39:44 [ main ] JDBC3 getGeneratedKeys(): enabled
+  2016-04-23 20:39:44 [ main ] Connection release mode: auto
+  2016-04-23 20:39:44 [ main ] Maximum outer join fetch depth: 2
+  2016-04-23 20:39:44 [ main ] Default batch fetch size: 1
+  2016-04-23 20:39:44 [ main ] Generate SQL with comments: disabled
+  2016-04-23 20:39:44 [ main ] Order SQL updates by primary key: disabled
+  2016-04-23 20:39:44 [ main ] Order SQL inserts for batching: disabled
+  2016-04-23 20:39:44 [ main ] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+  2016-04-23 20:39:44 [ main ] Using ASTQueryTranslatorFactory
+  2016-04-23 20:39:44 [ main ] Query language substitutions: {}
+  2016-04-23 20:39:44 [ main ] JPA-QL strict compliance: disabled
+  2016-04-23 20:39:44 [ main ] Second-level cache: enabled
+  2016-04-23 20:39:44 [ main ] Query cache: disabled
+  2016-04-23 20:39:44 [ main ] Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+  2016-04-23 20:39:44 [ main ] Cache provider: org.hibernate.cache.NoCacheProvider
+  2016-04-23 20:39:44 [ main ] Optimize cache for minimal puts: disabled
+  2016-04-23 20:39:44 [ main ] Structured second-level cache entries: disabled
+  2016-04-23 20:39:44 [ main ] Echoing all SQL to stdout
+  2016-04-23 20:39:44 [ main ] Statistics: disabled
+  2016-04-23 20:39:44 [ main ] Deleted entity synthetic identifier rollback: disabled
+  2016-04-23 20:39:44 [ main ] Default entity-mode: pojo
+  2016-04-23 20:39:44 [ main ] Named query checking : enabled
+  2016-04-23 20:39:44 [ main ] building session factory
+  2016-04-23 20:39:44 [ main ] Not binding factory to JNDI, no JNDI name configured
+  2016-04-23 20:39:44 [ main ] Running hbm2ddl schema update
+  2016-04-23 20:39:44 [ main ] fetching database metadata
+  2016-04-23 20:39:44 [ main ] updating schema
+  2016-04-23 20:39:44 [ main ] table found: hibernate.student
+  2016-04-23 20:39:44 [ main ] columns: [name, id, age]
+  2016-04-23 20:39:44 [ main ] foreign keys: []
+  2016-04-23 20:39:44 [ main ] indexes: [primary]
+  2016-04-23 20:39:44 [ main ] schema update complete
+  2016-04-23 20:39:44 [ main ] closing
+  2016-04-23 20:39:44 [ main ] cleaning up connection pool: jdbc:mysql://localhost/hibernate
+  2016-04-23 20:41:37 [ main ] Hibernate Annotations 3.2.0.GA
+  2016-04-23 20:41:37 [ main ] Hibernate 3.3.2.GA
+  2016-04-23 20:41:37 [ main ] hibernate.properties not found
+  2016-04-23 20:41:37 [ main ] Bytecode provider name : javassist
+  2016-04-23 20:41:37 [ main ] using JDK 1.4 java.sql.Timestamp handling
+  2016-04-23 20:41:37 [ main ] configuring from resource: /hibernate.cfg.xml
+  2016-04-23 20:41:37 [ main ] Configuration resource: /hibernate.cfg.xml
+  2016-04-23 20:41:37 [ main ] Reading mappings from resource : com/hibernate/model/Student.hbm.xml
+  2016-04-23 20:41:39 [ main ] Configured SessionFactory: null
+  2016-04-23 20:41:39 [ main ] Mapping class: com.hibernate.model.Student -> student
+  2016-04-23 20:41:40 [ main ] Using Hibernate built-in connection pool (not for production use!)
+  2016-04-23 20:41:40 [ main ] Hibernate connection pool size: 1
+  2016-04-23 20:41:40 [ main ] autocommit mode: false
+  2016-04-23 20:41:40 [ main ] using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost/hibernate
+  2016-04-23 20:41:40 [ main ] connection properties: {user=root, password=****}
+  2016-04-23 20:41:40 [ main ] RDBMS: MySQL, version: 5.7.9-log
+  2016-04-23 20:41:40 [ main ] JDBC driver: MySQL Connector Java, version: mysql-connector-java-5.1.37 ( Revision: 09940f05b4c98150f352e787a2549f11a2e9da93 )
+  2016-04-23 20:41:40 [ main ] Using dialect: org.hibernate.dialect.MySQLDialect
+  2016-04-23 20:41:40 [ main ] Using default transaction strategy (direct JDBC transactions)
+  2016-04-23 20:41:40 [ main ] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+  2016-04-23 20:41:40 [ main ] Automatic flush during beforeCompletion(): disabled
+  2016-04-23 20:41:40 [ main ] Automatic session close at end of transaction: disabled
+  2016-04-23 20:41:40 [ main ] JDBC batch size: 15
+  2016-04-23 20:41:40 [ main ] JDBC batch updates for versioned data: disabled
+  2016-04-23 20:41:40 [ main ] Scrollable result sets: enabled
+  2016-04-23 20:41:40 [ main ] JDBC3 getGeneratedKeys(): enabled
+  2016-04-23 20:41:40 [ main ] Connection release mode: auto
+  2016-04-23 20:41:40 [ main ] Maximum outer join fetch depth: 2
+  2016-04-23 20:41:40 [ main ] Default batch fetch size: 1
+  2016-04-23 20:41:40 [ main ] Generate SQL with comments: disabled
+  2016-04-23 20:41:40 [ main ] Order SQL updates by primary key: disabled
+  2016-04-23 20:41:40 [ main ] Order SQL inserts for batching: disabled
+  2016-04-23 20:41:40 [ main ] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+  2016-04-23 20:41:40 [ main ] Using ASTQueryTranslatorFactory
+  2016-04-23 20:41:40 [ main ] Query language substitutions: {}
+  2016-04-23 20:41:40 [ main ] JPA-QL strict compliance: disabled
+  2016-04-23 20:41:40 [ main ] Second-level cache: enabled
+  2016-04-23 20:41:40 [ main ] Query cache: disabled
+  2016-04-23 20:41:40 [ main ] Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+  2016-04-23 20:41:40 [ main ] Cache provider: org.hibernate.cache.NoCacheProvider
+  2016-04-23 20:41:40 [ main ] Optimize cache for minimal puts: disabled
+  2016-04-23 20:41:40 [ main ] Structured second-level cache entries: disabled
+  2016-04-23 20:41:40 [ main ] Echoing all SQL to stdout
+  2016-04-23 20:41:40 [ main ] Statistics: disabled
+  2016-04-23 20:41:40 [ main ] Deleted entity synthetic identifier rollback: disabled
+  2016-04-23 20:41:40 [ main ] Default entity-mode: pojo
+  2016-04-23 20:41:40 [ main ] Named query checking : enabled
+  2016-04-23 20:41:40 [ main ] building session factory
+  2016-04-23 20:41:40 [ main ] Not binding factory to JNDI, no JNDI name configured
+  2016-04-23 20:41:40 [ main ] Running hbm2ddl schema update
+  2016-04-23 20:41:40 [ main ] fetching database metadata
+  2016-04-23 20:41:40 [ main ] updating schema
+  2016-04-23 20:41:40 [ main ] table found: hibernate.student
+  2016-04-23 20:41:40 [ main ] columns: [name, id, age]
+  2016-04-23 20:41:40 [ main ] foreign keys: []
+  2016-04-23 20:41:40 [ main ] indexes: [primary]
+  2016-04-23 20:41:40 [ main ] schema update complete
+  2016-04-23 20:41:41 [ main ] closing
+  2016-04-23 20:41:41 [ main ] cleaning up connection pool: jdbc:mysql://localhost/hibernate
+  2016-04-23 20:44:05 [ main ] Hibernate Annotations 3.2.0.GA
+  2016-04-23 20:44:05 [ main ] Hibernate 3.3.2.GA
+  2016-04-23 20:44:05 [ main ] hibernate.properties not found
+  2016-04-23 20:44:05 [ main ] Bytecode provider name : javassist
+  2016-04-23 20:44:05 [ main ] using JDK 1.4 java.sql.Timestamp handling
+  2016-04-23 20:44:05 [ main ] configuring from resource: /hibernate.cfg.xml
+  2016-04-23 20:44:05 [ main ] Configuration resource: /hibernate.cfg.xml
+  2016-04-23 20:44:05 [ main ] Reading mappings from resource : com/hibernate/model/Student.hbm.xml
+  2016-04-23 20:44:12 [ main ] Configured SessionFactory: null
+  2016-04-23 20:44:12 [ main ] Mapping class: com.hibernate.model.Student -> student
+  2016-04-23 20:44:13 [ main ] Using Hibernate built-in connection pool (not for production use!)
+  2016-04-23 20:44:13 [ main ] Hibernate connection pool size: 1
+  2016-04-23 20:44:13 [ main ] autocommit mode: false
+  2016-04-23 20:44:13 [ main ] using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost/hibernate
+  2016-04-23 20:44:13 [ main ] connection properties: {user=root, password=****}
+  2016-04-23 20:44:13 [ main ] RDBMS: MySQL, version: 5.7.9-log
+  2016-04-23 20:44:13 [ main ] JDBC driver: MySQL Connector Java, version: mysql-connector-java-5.1.37 ( Revision: 09940f05b4c98150f352e787a2549f11a2e9da93 )
+  2016-04-23 20:44:13 [ main ] Using dialect: org.hibernate.dialect.MySQLDialect
+  2016-04-23 20:44:13 [ main ] Using default transaction strategy (direct JDBC transactions)
+  2016-04-23 20:44:13 [ main ] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+  2016-04-23 20:44:13 [ main ] Automatic flush during beforeCompletion(): disabled
+  2016-04-23 20:44:13 [ main ] Automatic session close at end of transaction: disabled
+  2016-04-23 20:44:13 [ main ] JDBC batch size: 15
+  2016-04-23 20:44:13 [ main ] JDBC batch updates for versioned data: disabled
+  2016-04-23 20:44:13 [ main ] Scrollable result sets: enabled
+  2016-04-23 20:44:13 [ main ] JDBC3 getGeneratedKeys(): enabled
+  2016-04-23 20:44:13 [ main ] Connection release mode: auto
+  2016-04-23 20:44:13 [ main ] Maximum outer join fetch depth: 2
+  2016-04-23 20:44:13 [ main ] Default batch fetch size: 1
+  2016-04-23 20:44:13 [ main ] Generate SQL with comments: disabled
+  2016-04-23 20:44:13 [ main ] Order SQL updates by primary key: disabled
+  2016-04-23 20:44:13 [ main ] Order SQL inserts for batching: disabled
+  2016-04-23 20:44:13 [ main ] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+  2016-04-23 20:44:13 [ main ] Using ASTQueryTranslatorFactory
+  2016-04-23 20:44:13 [ main ] Query language substitutions: {}
+  2016-04-23 20:44:13 [ main ] JPA-QL strict compliance: disabled
+  2016-04-23 20:44:13 [ main ] Second-level cache: enabled
+  2016-04-23 20:44:13 [ main ] Query cache: disabled
+  2016-04-23 20:44:13 [ main ] Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+  2016-04-23 20:44:13 [ main ] Cache provider: org.hibernate.cache.NoCacheProvider
+  2016-04-23 20:44:13 [ main ] Optimize cache for minimal puts: disabled
+  2016-04-23 20:44:13 [ main ] Structured second-level cache entries: disabled
+  2016-04-23 20:44:13 [ main ] Echoing all SQL to stdout
+  2016-04-23 20:44:13 [ main ] Statistics: disabled
+  2016-04-23 20:44:13 [ main ] Deleted entity synthetic identifier rollback: disabled
+  2016-04-23 20:44:13 [ main ] Default entity-mode: pojo
+  2016-04-23 20:44:13 [ main ] Named query checking : enabled
+  2016-04-23 20:44:13 [ main ] building session factory
+  2016-04-23 20:44:13 [ main ] Not binding factory to JNDI, no JNDI name configured
+  2016-04-23 20:44:13 [ main ] Running hbm2ddl schema update
+  2016-04-23 20:44:13 [ main ] fetching database metadata
+  2016-04-23 20:44:13 [ main ] updating schema
+  2016-04-23 20:44:13 [ main ] table found: hibernate.student
+  2016-04-23 20:44:13 [ main ] columns: [name, id, age]
+  2016-04-23 20:44:13 [ main ] foreign keys: []
+  2016-04-23 20:44:13 [ main ] indexes: [primary]
+  2016-04-23 20:44:13 [ main ] schema update complete
+  2016-04-23 20:44:13 [ main ] closing
+  2016-04-23 20:44:13 [ main ] cleaning up connection pool: jdbc:mysql://localhost/hibernate
+  2016-04-23 20:50:45 [ main ] Hibernate Annotations 3.2.0.GA
+  2016-04-23 20:50:45 [ main ] Hibernate 3.3.2.GA
+  2016-04-23 20:50:45 [ main ] hibernate.properties not found
+  2016-04-23 20:50:45 [ main ] Bytecode provider name : javassist
+  2016-04-23 20:50:45 [ main ] using JDK 1.4 java.sql.Timestamp handling
+  2016-04-23 20:50:46 [ main ] configuring from resource: /hibernate.cfg.xml
+  2016-04-23 20:50:46 [ main ] Configuration resource: /hibernate.cfg.xml
+  2016-04-23 20:50:46 [ main ] Configured SessionFactory: null
+  2016-04-23 20:50:46 [ main ] Using Hibernate built-in connection pool (not for production use!)
+  2016-04-23 20:50:46 [ main ] Hibernate connection pool size: 1
+  2016-04-23 20:50:46 [ main ] autocommit mode: false
+  2016-04-23 20:50:46 [ main ] using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost/hibernate
+  2016-04-23 20:50:46 [ main ] connection properties: {user=root, password=****}
+  2016-04-23 20:50:46 [ main ] RDBMS: MySQL, version: 5.7.9-log
+  2016-04-23 20:50:46 [ main ] JDBC driver: MySQL Connector Java, version: mysql-connector-java-5.1.37 ( Revision: 09940f05b4c98150f352e787a2549f11a2e9da93 )
+  2016-04-23 20:50:46 [ main ] Using dialect: org.hibernate.dialect.MySQLDialect
+  2016-04-23 20:50:46 [ main ] Using default transaction strategy (direct JDBC transactions)
+  2016-04-23 20:50:46 [ main ] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+  2016-04-23 20:50:46 [ main ] Automatic flush during beforeCompletion(): disabled
+  2016-04-23 20:50:46 [ main ] Automatic session close at end of transaction: disabled
+  2016-04-23 20:50:46 [ main ] JDBC batch size: 15
+  2016-04-23 20:50:46 [ main ] JDBC batch updates for versioned data: disabled
+  2016-04-23 20:50:46 [ main ] Scrollable result sets: enabled
+  2016-04-23 20:50:46 [ main ] JDBC3 getGeneratedKeys(): enabled
+  2016-04-23 20:50:46 [ main ] Connection release mode: auto
+  2016-04-23 20:50:46 [ main ] Maximum outer join fetch depth: 2
+  2016-04-23 20:50:46 [ main ] Default batch fetch size: 1
+  2016-04-23 20:50:46 [ main ] Generate SQL with comments: disabled
+  2016-04-23 20:50:46 [ main ] Order SQL updates by primary key: disabled
+  2016-04-23 20:50:46 [ main ] Order SQL inserts for batching: disabled
+  2016-04-23 20:50:46 [ main ] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+  2016-04-23 20:50:46 [ main ] Using ASTQueryTranslatorFactory
+  2016-04-23 20:50:46 [ main ] Query language substitutions: {}
+  2016-04-23 20:50:46 [ main ] JPA-QL strict compliance: disabled
+  2016-04-23 20:50:46 [ main ] Second-level cache: enabled
+  2016-04-23 20:50:46 [ main ] Query cache: disabled
+  2016-04-23 20:50:46 [ main ] Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+  2016-04-23 20:50:46 [ main ] Cache provider: org.hibernate.cache.NoCacheProvider
+  2016-04-23 20:50:46 [ main ] Optimize cache for minimal puts: disabled
+  2016-04-23 20:50:46 [ main ] Structured second-level cache entries: disabled
+  2016-04-23 20:50:46 [ main ] Echoing all SQL to stdout
+  2016-04-23 20:50:46 [ main ] Statistics: disabled
+  2016-04-23 20:50:46 [ main ] Deleted entity synthetic identifier rollback: disabled
+  2016-04-23 20:50:46 [ main ] Default entity-mode: pojo
+  2016-04-23 20:50:46 [ main ] Named query checking : enabled
+  2016-04-23 20:50:46 [ main ] building session factory
+  2016-04-23 20:50:46 [ main ] Not binding factory to JNDI, no JNDI name configured
+  2016-04-23 20:50:46 [ main ] Running hbm2ddl schema update
+  2016-04-23 20:50:46 [ main ] fetching database metadata
+  2016-04-23 20:50:46 [ main ] updating schema
+  2016-04-23 20:50:46 [ main ] schema update complete
+  2016-04-23 20:50:47 [ main ] closing
+  2016-04-23 20:50:47 [ main ] cleaning up connection pool: jdbc:mysql://localhost/hibernate
+  2016-04-23 20:56:49 [ main ] Hibernate Annotations 3.2.0.GA
+  2016-04-23 20:56:49 [ main ] Hibernate 3.3.2.GA
+  2016-04-23 20:56:49 [ main ] hibernate.properties not found
+  2016-04-23 20:56:49 [ main ] Bytecode provider name : javassist
+  2016-04-23 20:56:49 [ main ] using JDK 1.4 java.sql.Timestamp handling
+  2016-04-23 20:56:49 [ main ] configuring from resource: /hibernate.cfg.xml
+  2016-04-23 20:56:49 [ main ] Configuration resource: /hibernate.cfg.xml
+  2016-04-23 20:56:50 [ main ] Configured SessionFactory: null
+  2016-04-23 20:56:50 [ main ] Using Hibernate built-in connection pool (not for production use!)
+  2016-04-23 20:56:50 [ main ] Hibernate connection pool size: 1
+  2016-04-23 20:56:50 [ main ] autocommit mode: false
+  2016-04-23 20:56:50 [ main ] using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost/hibernate
+  2016-04-23 20:56:50 [ main ] connection properties: {user=root, password=****}
+  2016-04-23 20:56:50 [ main ] RDBMS: MySQL, version: 5.7.9-log
+  2016-04-23 20:56:50 [ main ] JDBC driver: MySQL Connector Java, version: mysql-connector-java-5.1.37 ( Revision: 09940f05b4c98150f352e787a2549f11a2e9da93 )
+  2016-04-23 20:56:50 [ main ] Using dialect: org.hibernate.dialect.MySQLDialect
+  2016-04-23 20:56:50 [ main ] Using default transaction strategy (direct JDBC transactions)
+  2016-04-23 20:56:50 [ main ] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+  2016-04-23 20:56:50 [ main ] Automatic flush during beforeCompletion(): disabled
+  2016-04-23 20:56:50 [ main ] Automatic session close at end of transaction: disabled
+  2016-04-23 20:56:50 [ main ] JDBC batch size: 15
+  2016-04-23 20:56:50 [ main ] JDBC batch updates for versioned data: disabled
+  2016-04-23 20:56:50 [ main ] Scrollable result sets: enabled
+  2016-04-23 20:56:50 [ main ] JDBC3 getGeneratedKeys(): enabled
+  2016-04-23 20:56:50 [ main ] Connection release mode: auto
+  2016-04-23 20:56:50 [ main ] Maximum outer join fetch depth: 2
+  2016-04-23 20:56:50 [ main ] Default batch fetch size: 1
+  2016-04-23 20:56:50 [ main ] Generate SQL with comments: disabled
+  2016-04-23 20:56:50 [ main ] Order SQL updates by primary key: disabled
+  2016-04-23 20:56:50 [ main ] Order SQL inserts for batching: disabled
+  2016-04-23 20:56:50 [ main ] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+  2016-04-23 20:56:50 [ main ] Using ASTQueryTranslatorFactory
+  2016-04-23 20:56:50 [ main ] Query language substitutions: {}
+  2016-04-23 20:56:50 [ main ] JPA-QL strict compliance: disabled
+  2016-04-23 20:56:50 [ main ] Second-level cache: enabled
+  2016-04-23 20:56:50 [ main ] Query cache: disabled
+  2016-04-23 20:56:50 [ main ] Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+  2016-04-23 20:56:50 [ main ] Cache provider: org.hibernate.cache.NoCacheProvider
+  2016-04-23 20:56:50 [ main ] Optimize cache for minimal puts: disabled
+  2016-04-23 20:56:50 [ main ] Structured second-level cache entries: disabled
+  2016-04-23 20:56:50 [ main ] Echoing all SQL to stdout
+  2016-04-23 20:56:50 [ main ] Statistics: disabled
+  2016-04-23 20:56:50 [ main ] Deleted entity synthetic identifier rollback: disabled
+  2016-04-23 20:56:50 [ main ] Default entity-mode: pojo
+  2016-04-23 20:56:50 [ main ] Named query checking : enabled
+  2016-04-23 20:56:50 [ main ] building session factory
+  2016-04-23 20:56:50 [ main ] Not binding factory to JNDI, no JNDI name configured
+  2016-04-23 20:56:50 [ main ] Running hbm2ddl schema update
+  2016-04-23 20:56:50 [ main ] fetching database metadata
+  2016-04-23 20:56:50 [ main ] updating schema
+  2016-04-23 20:56:50 [ main ] schema update complete
+  2016-04-23 20:56:50 [ main ] closing
+  2016-04-23 20:56:50 [ main ] cleaning up connection pool: jdbc:mysql://localhost/hibernate
+  2016-04-23 21:06:27 [ main ] Hibernate Annotations 3.2.0.GA
+  2016-04-23 21:06:27 [ main ] Hibernate 3.3.2.GA
+  2016-04-23 21:06:27 [ main ] hibernate.properties not found
+  2016-04-23 21:06:27 [ main ] Bytecode provider name : javassist
+  2016-04-23 21:06:27 [ main ] using JDK 1.4 java.sql.Timestamp handling
+  2016-04-23 21:06:27 [ main ] configuring from resource: /hibernate.cfg.xml
+  2016-04-23 21:06:27 [ main ] Configuration resource: /hibernate.cfg.xml
+  2016-04-23 21:06:27 [ main ] Configured SessionFactory: null
+  2016-04-23 21:06:27 [ main ] Using Hibernate built-in connection pool (not for production use!)
+  2016-04-23 21:06:27 [ main ] Hibernate connection pool size: 1
+  2016-04-23 21:06:27 [ main ] autocommit mode: false
+  2016-04-23 21:06:27 [ main ] using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost/hibernate
+  2016-04-23 21:06:27 [ main ] connection properties: {user=root, password=****}
+  2016-04-23 21:06:28 [ main ] RDBMS: MySQL, version: 5.7.9-log
+  2016-04-23 21:06:28 [ main ] JDBC driver: MySQL Connector Java, version: mysql-connector-java-5.1.37 ( Revision: 09940f05b4c98150f352e787a2549f11a2e9da93 )
+  2016-04-23 21:06:28 [ main ] Using dialect: org.hibernate.dialect.MySQLDialect
+  2016-04-23 21:06:28 [ main ] Using default transaction strategy (direct JDBC transactions)
+  2016-04-23 21:06:28 [ main ] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+  2016-04-23 21:06:28 [ main ] Automatic flush during beforeCompletion(): disabled
+  2016-04-23 21:06:28 [ main ] Automatic session close at end of transaction: disabled
+  2016-04-23 21:06:28 [ main ] JDBC batch size: 15
+  2016-04-23 21:06:28 [ main ] JDBC batch updates for versioned data: disabled
+  2016-04-23 21:06:28 [ main ] Scrollable result sets: enabled
+  2016-04-23 21:06:28 [ main ] JDBC3 getGeneratedKeys(): enabled
+  2016-04-23 21:06:28 [ main ] Connection release mode: auto
+  2016-04-23 21:06:28 [ main ] Maximum outer join fetch depth: 2
+  2016-04-23 21:06:28 [ main ] Default batch fetch size: 1
+  2016-04-23 21:06:28 [ main ] Generate SQL with comments: disabled
+  2016-04-23 21:06:28 [ main ] Order SQL updates by primary key: disabled
+  2016-04-23 21:06:28 [ main ] Order SQL inserts for batching: disabled
+  2016-04-23 21:06:28 [ main ] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+  2016-04-23 21:06:28 [ main ] Using ASTQueryTranslatorFactory
+  2016-04-23 21:06:28 [ main ] Query language substitutions: {}
+  2016-04-23 21:06:28 [ main ] JPA-QL strict compliance: disabled
+  2016-04-23 21:06:28 [ main ] Second-level cache: enabled
+  2016-04-23 21:06:28 [ main ] Query cache: disabled
+  2016-04-23 21:06:28 [ main ] Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+  2016-04-23 21:06:28 [ main ] Cache provider: org.hibernate.cache.NoCacheProvider
+  2016-04-23 21:06:28 [ main ] Optimize cache for minimal puts: disabled
+  2016-04-23 21:06:28 [ main ] Structured second-level cache entries: disabled
+  2016-04-23 21:06:28 [ main ] Echoing all SQL to stdout
+  2016-04-23 21:06:28 [ main ] Statistics: disabled
+  2016-04-23 21:06:28 [ main ] Deleted entity synthetic identifier rollback: disabled
+  2016-04-23 21:06:28 [ main ] Default entity-mode: pojo
+  2016-04-23 21:06:28 [ main ] Named query checking : enabled
+  2016-04-23 21:06:28 [ main ] building session factory
+  2016-04-23 21:06:28 [ main ] Not binding factory to JNDI, no JNDI name configured
+  2016-04-23 21:06:28 [ main ] Running hbm2ddl schema update
+  2016-04-23 21:06:28 [ main ] fetching database metadata
+  2016-04-23 21:06:28 [ main ] updating schema
+  2016-04-23 21:06:28 [ main ] schema update complete
+  2016-04-23 21:06:28 [ main ] closing
+  2016-04-23 21:06:28 [ main ] cleaning up connection pool: jdbc:mysql://localhost/hibernate
+  2016-04-23 21:19:34 [ main ] Hibernate Annotations 3.2.0.GA
+  2016-04-23 21:19:34 [ main ] Hibernate 3.3.2.GA
+  2016-04-23 21:19:34 [ main ] hibernate.properties not found
+  2016-04-23 21:19:34 [ main ] Bytecode provider name : javassist
+  2016-04-23 21:19:34 [ main ] using JDK 1.4 java.sql.Timestamp handling
+  2016-04-23 21:19:35 [ main ] configuring from resource: /hibernate.cfg.xml
+  2016-04-23 21:19:35 [ main ] Configuration resource: /hibernate.cfg.xml
+  2016-04-23 21:19:35 [ main ] Configured SessionFactory: null
+  2016-04-23 21:19:35 [ main ] Binding entity from annotated class: com.hibernate.model.Teacher
+  2016-04-23 21:19:35 [ main ] Bind entity com.hibernate.model.Teacher on table Teacher
+  2016-04-23 21:19:35 [ main ] Using Hibernate built-in connection pool (not for production use!)
+  2016-04-23 21:19:35 [ main ] Hibernate connection pool size: 1
+  2016-04-23 21:19:35 [ main ] autocommit mode: false
+  2016-04-23 21:19:35 [ main ] using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost/hibernate
+  2016-04-23 21:19:35 [ main ] connection properties: {user=root, password=****}
+  2016-04-23 21:19:35 [ main ] RDBMS: MySQL, version: 5.7.9-log
+  2016-04-23 21:19:35 [ main ] JDBC driver: MySQL Connector Java, version: mysql-connector-java-5.1.37 ( Revision: 09940f05b4c98150f352e787a2549f11a2e9da93 )
+  2016-04-23 21:19:36 [ main ] Using dialect: org.hibernate.dialect.MySQLDialect
+  2016-04-23 21:19:36 [ main ] Using default transaction strategy (direct JDBC transactions)
+  2016-04-23 21:19:36 [ main ] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+  2016-04-23 21:19:36 [ main ] Automatic flush during beforeCompletion(): disabled
+  2016-04-23 21:19:36 [ main ] Automatic session close at end of transaction: disabled
+  2016-04-23 21:19:36 [ main ] JDBC batch size: 15
+  2016-04-23 21:19:36 [ main ] JDBC batch updates for versioned data: disabled
+  2016-04-23 21:19:36 [ main ] Scrollable result sets: enabled
+  2016-04-23 21:19:36 [ main ] JDBC3 getGeneratedKeys(): enabled
+  2016-04-23 21:19:36 [ main ] Connection release mode: auto
+  2016-04-23 21:19:36 [ main ] Maximum outer join fetch depth: 2
+  2016-04-23 21:19:36 [ main ] Default batch fetch size: 1
+  2016-04-23 21:19:36 [ main ] Generate SQL with comments: disabled
+  2016-04-23 21:19:36 [ main ] Order SQL updates by primary key: disabled
+  2016-04-23 21:19:36 [ main ] Order SQL inserts for batching: disabled
+  2016-04-23 21:19:36 [ main ] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+  2016-04-23 21:19:36 [ main ] Using ASTQueryTranslatorFactory
+  2016-04-23 21:19:36 [ main ] Query language substitutions: {}
+  2016-04-23 21:19:36 [ main ] JPA-QL strict compliance: disabled
+  2016-04-23 21:19:36 [ main ] Second-level cache: enabled
+  2016-04-23 21:19:36 [ main ] Query cache: disabled
+  2016-04-23 21:19:36 [ main ] Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+  2016-04-23 21:19:36 [ main ] Cache provider: org.hibernate.cache.NoCacheProvider
+  2016-04-23 21:19:36 [ main ] Optimize cache for minimal puts: disabled
+  2016-04-23 21:19:36 [ main ] Structured second-level cache entries: disabled
+  2016-04-23 21:19:36 [ main ] Echoing all SQL to stdout
+  2016-04-23 21:19:36 [ main ] Statistics: disabled
+  2016-04-23 21:19:36 [ main ] Deleted entity synthetic identifier rollback: disabled
+  2016-04-23 21:19:36 [ main ] Default entity-mode: pojo
+  2016-04-23 21:19:36 [ main ] Named query checking : enabled
+  2016-04-23 21:19:36 [ main ] building session factory
+  2016-04-23 21:19:36 [ main ] Not binding factory to JNDI, no JNDI name configured
+  2016-04-23 21:19:36 [ main ] Running hbm2ddl schema update
+  2016-04-23 21:19:36 [ main ] fetching database metadata
+  2016-04-23 21:19:36 [ main ] updating schema
+  2016-04-23 21:19:36 [ main ] table not found: Teacher
+  2016-04-23 21:19:36 [ main ] table not found: Teacher
+  2016-04-23 21:19:36 [ main ] schema update complete
+  2016-04-23 21:19:36 [ main ] closing
+  2016-04-23 21:19:36 [ main ] cleaning up connection pool: jdbc:mysql://localhost/hibernate
+  2016-04-23 22:04:49 [ main ] Hibernate Annotations 3.2.0.GA
+  2016-04-23 22:04:49 [ main ] Hibernate 3.3.2.GA
+  2016-04-23 22:04:49 [ main ] hibernate.properties not found
+  2016-04-23 22:04:49 [ main ] Bytecode provider name : javassist
+  2016-04-23 22:04:49 [ main ] using JDK 1.4 java.sql.Timestamp handling
+  2016-04-23 22:04:49 [ main ] configuring from resource: /hibernate.cfg.xml
+  2016-04-23 22:04:49 [ main ] Configuration resource: /hibernate.cfg.xml
+  2016-04-23 22:04:49 [ main ] Configured SessionFactory: null
+  2016-04-23 22:04:50 [ main ] Binding entity from annotated class: com.hibernate.model.Teacher
+  2016-04-23 22:04:50 [ main ] Bind entity com.hibernate.model.Teacher on table Teacher
+  2016-04-23 22:04:50 [ main ] Using Hibernate built-in connection pool (not for production use!)
+  2016-04-23 22:04:50 [ main ] Hibernate connection pool size: 1
+  2016-04-23 22:04:50 [ main ] autocommit mode: false
+  2016-04-23 22:04:50 [ main ] using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost/hibernate
+  2016-04-23 22:04:50 [ main ] connection properties: {user=root, password=****}
+  2016-04-23 22:04:50 [ main ] RDBMS: MySQL, version: 5.7.9-log
+  2016-04-23 22:04:50 [ main ] JDBC driver: MySQL Connector Java, version: mysql-connector-java-5.1.37 ( Revision: 09940f05b4c98150f352e787a2549f11a2e9da93 )
+  2016-04-23 22:04:50 [ main ] Using dialect: org.hibernate.dialect.MySQLDialect
+  2016-04-23 22:04:50 [ main ] Using default transaction strategy (direct JDBC transactions)
+  2016-04-23 22:04:50 [ main ] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+  2016-04-23 22:04:50 [ main ] Automatic flush during beforeCompletion(): disabled
+  2016-04-23 22:04:50 [ main ] Automatic session close at end of transaction: disabled
+  2016-04-23 22:04:50 [ main ] JDBC batch size: 15
+  2016-04-23 22:04:50 [ main ] JDBC batch updates for versioned data: disabled
+  2016-04-23 22:04:50 [ main ] Scrollable result sets: enabled
+  2016-04-23 22:04:50 [ main ] JDBC3 getGeneratedKeys(): enabled
+  2016-04-23 22:04:50 [ main ] Connection release mode: auto
+  2016-04-23 22:04:50 [ main ] Maximum outer join fetch depth: 2
+  2016-04-23 22:04:50 [ main ] Default batch fetch size: 1
+  2016-04-23 22:04:50 [ main ] Generate SQL with comments: disabled
+  2016-04-23 22:04:50 [ main ] Order SQL updates by primary key: disabled
+  2016-04-23 22:04:50 [ main ] Order SQL inserts for batching: disabled
+  2016-04-23 22:04:50 [ main ] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+  2016-04-23 22:04:50 [ main ] Using ASTQueryTranslatorFactory
+  2016-04-23 22:04:50 [ main ] Query language substitutions: {}
+  2016-04-23 22:04:50 [ main ] JPA-QL strict compliance: disabled
+  2016-04-23 22:04:50 [ main ] Second-level cache: enabled
+  2016-04-23 22:04:50 [ main ] Query cache: disabled
+  2016-04-23 22:04:50 [ main ] Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+  2016-04-23 22:04:50 [ main ] Cache provider: org.hibernate.cache.NoCacheProvider
+  2016-04-23 22:04:50 [ main ] Optimize cache for minimal puts: disabled
+  2016-04-23 22:04:50 [ main ] Structured second-level cache entries: disabled
+  2016-04-23 22:04:50 [ main ] Echoing all SQL to stdout
+  2016-04-23 22:04:50 [ main ] Statistics: disabled
+  2016-04-23 22:04:50 [ main ] Deleted entity synthetic identifier rollback: disabled
+  2016-04-23 22:04:50 [ main ] Default entity-mode: pojo
+  2016-04-23 22:04:50 [ main ] Named query checking : enabled
+  2016-04-23 22:04:50 [ main ] building session factory
+  2016-04-23 22:04:50 [ main ] Not binding factory to JNDI, no JNDI name configured
+  2016-04-23 22:04:50 [ main ] Running hbm2ddl schema update
+  2016-04-23 22:04:50 [ main ] fetching database metadata
+  2016-04-23 22:04:50 [ main ] updating schema
+  2016-04-23 22:04:50 [ main ] table not found: Teacher
+  2016-04-23 22:04:50 [ main ] table not found: Teacher
+  2016-04-23 22:04:51 [ main ] schema update complete
+  2016-04-23 22:07:15 [ main ] Hibernate Annotations 3.2.0.GA
+  2016-04-23 22:07:15 [ main ] Hibernate 3.3.2.GA
+  2016-04-23 22:07:15 [ main ] hibernate.properties not found
+  2016-04-23 22:07:15 [ main ] Bytecode provider name : javassist
+  2016-04-23 22:07:15 [ main ] using JDK 1.4 java.sql.Timestamp handling
+  2016-04-23 22:07:15 [ main ] configuring from resource: /hibernate.cfg.xml
+  2016-04-23 22:07:15 [ main ] Configuration resource: /hibernate.cfg.xml
+  2016-04-23 22:07:15 [ main ] Configured SessionFactory: null
+  2016-04-23 22:07:15 [ main ] Binding entity from annotated class: com.hibernate.model.Teacher
+  2016-04-23 22:07:15 [ main ] Bind entity com.hibernate.model.Teacher on table teacher
+  2016-04-23 22:07:16 [ main ] Using Hibernate built-in connection pool (not for production use!)
+  2016-04-23 22:07:16 [ main ] Hibernate connection pool size: 1
+  2016-04-23 22:07:16 [ main ] autocommit mode: false
+  2016-04-23 22:07:16 [ main ] using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost/hibernate
+  2016-04-23 22:07:16 [ main ] connection properties: {user=root, password=****}
+  2016-04-23 22:07:16 [ main ] RDBMS: MySQL, version: 5.7.9-log
+  2016-04-23 22:07:16 [ main ] JDBC driver: MySQL Connector Java, version: mysql-connector-java-5.1.37 ( Revision: 09940f05b4c98150f352e787a2549f11a2e9da93 )
+  2016-04-23 22:07:16 [ main ] Using dialect: org.hibernate.dialect.MySQLDialect
+  2016-04-23 22:07:16 [ main ] Using default transaction strategy (direct JDBC transactions)
+  2016-04-23 22:07:16 [ main ] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+  2016-04-23 22:07:16 [ main ] Automatic flush during beforeCompletion(): disabled
+  2016-04-23 22:07:16 [ main ] Automatic session close at end of transaction: disabled
+  2016-04-23 22:07:16 [ main ] JDBC batch size: 15
+  2016-04-23 22:07:16 [ main ] JDBC batch updates for versioned data: disabled
+  2016-04-23 22:07:16 [ main ] Scrollable result sets: enabled
+  2016-04-23 22:07:16 [ main ] JDBC3 getGeneratedKeys(): enabled
+  2016-04-23 22:07:16 [ main ] Connection release mode: auto
+  2016-04-23 22:07:16 [ main ] Maximum outer join fetch depth: 2
+  2016-04-23 22:07:16 [ main ] Default batch fetch size: 1
+  2016-04-23 22:07:16 [ main ] Generate SQL with comments: disabled
+  2016-04-23 22:07:16 [ main ] Order SQL updates by primary key: disabled
+  2016-04-23 22:07:16 [ main ] Order SQL inserts for batching: disabled
+  2016-04-23 22:07:16 [ main ] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+  2016-04-23 22:07:16 [ main ] Using ASTQueryTranslatorFactory
+  2016-04-23 22:07:16 [ main ] Query language substitutions: {}
+  2016-04-23 22:07:16 [ main ] JPA-QL strict compliance: disabled
+  2016-04-23 22:07:16 [ main ] Second-level cache: enabled
+  2016-04-23 22:07:16 [ main ] Query cache: disabled
+  2016-04-23 22:07:16 [ main ] Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+  2016-04-23 22:07:16 [ main ] Cache provider: org.hibernate.cache.NoCacheProvider
+  2016-04-23 22:07:16 [ main ] Optimize cache for minimal puts: disabled
+  2016-04-23 22:07:16 [ main ] Structured second-level cache entries: disabled
+  2016-04-23 22:07:16 [ main ] Echoing all SQL to stdout
+  2016-04-23 22:07:16 [ main ] Statistics: disabled
+  2016-04-23 22:07:16 [ main ] Deleted entity synthetic identifier rollback: disabled
+  2016-04-23 22:07:16 [ main ] Default entity-mode: pojo
+  2016-04-23 22:07:16 [ main ] Named query checking : enabled
+  2016-04-23 22:07:16 [ main ] building session factory
+  2016-04-23 22:07:16 [ main ] Not binding factory to JNDI, no JNDI name configured
+  2016-04-23 22:07:16 [ main ] Running hbm2ddl schema update
+  2016-04-23 22:07:16 [ main ] fetching database metadata
+  2016-04-23 22:07:16 [ main ] updating schema
+  2016-04-23 22:07:16 [ main ] table not found: teacher
+  2016-04-23 22:07:16 [ main ] table not found: teacher
+  2016-04-23 22:07:16 [ main ] schema update complete
+  2016-04-23 22:07:17 [ main ] closing
+  2016-04-23 22:07:17 [ main ] cleaning up connection pool: jdbc:mysql://localhost/hibernate
+  2016-04-23 22:24:24 [ main ] Hibernate Annotations 3.2.0.GA
+  2016-04-23 22:24:24 [ main ] Hibernate 3.3.2.GA
+  2016-04-23 22:24:24 [ main ] hibernate.properties not found
+  2016-04-23 22:24:24 [ main ] Bytecode provider name : javassist
+  2016-04-23 22:24:24 [ main ] using JDK 1.4 java.sql.Timestamp handling
+  2016-04-23 22:24:24 [ main ] configuring from resource: /hibernate.cfg.xml
+  2016-04-23 22:24:24 [ main ] Configuration resource: /hibernate.cfg.xml
+  2016-04-23 22:24:24 [ main ] Configured SessionFactory: null
+  2016-04-23 22:24:24 [ main ] Binding entity from annotated class: com.hibernate.model.Teacher
+  2016-04-23 22:24:24 [ main ] Bind entity com.hibernate.model.Teacher on table teacher
+  2016-04-23 22:24:24 [ main ] Using Hibernate built-in connection pool (not for production use!)
+  2016-04-23 22:24:24 [ main ] Hibernate connection pool size: 1
+  2016-04-23 22:24:24 [ main ] autocommit mode: false
+  2016-04-23 22:24:24 [ main ] using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost/hibernate
+  2016-04-23 22:24:24 [ main ] connection properties: {user=root, password=****}
+  2016-04-23 22:24:25 [ main ] RDBMS: MySQL, version: 5.7.9-log
+  2016-04-23 22:24:25 [ main ] JDBC driver: MySQL Connector Java, version: mysql-connector-java-5.1.37 ( Revision: 09940f05b4c98150f352e787a2549f11a2e9da93 )
+  2016-04-23 22:24:25 [ main ] Using dialect: org.hibernate.dialect.MySQLDialect
+  2016-04-23 22:24:25 [ main ] Using default transaction strategy (direct JDBC transactions)
+  2016-04-23 22:24:25 [ main ] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+  2016-04-23 22:24:25 [ main ] Automatic flush during beforeCompletion(): disabled
+  2016-04-23 22:24:25 [ main ] Automatic session close at end of transaction: disabled
+  2016-04-23 22:24:25 [ main ] JDBC batch size: 15
+  2016-04-23 22:24:25 [ main ] JDBC batch updates for versioned data: disabled
+  2016-04-23 22:24:25 [ main ] Scrollable result sets: enabled
+  2016-04-23 22:24:25 [ main ] JDBC3 getGeneratedKeys(): enabled
+  2016-04-23 22:24:25 [ main ] Connection release mode: auto
+  2016-04-23 22:24:25 [ main ] Maximum outer join fetch depth: 2
+  2016-04-23 22:24:25 [ main ] Default batch fetch size: 1
+  2016-04-23 22:24:25 [ main ] Generate SQL with comments: disabled
+  2016-04-23 22:24:25 [ main ] Order SQL updates by primary key: disabled
+  2016-04-23 22:24:25 [ main ] Order SQL inserts for batching: disabled
+  2016-04-23 22:24:25 [ main ] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+  2016-04-23 22:24:25 [ main ] Using ASTQueryTranslatorFactory
+  2016-04-23 22:24:25 [ main ] Query language substitutions: {}
+  2016-04-23 22:24:25 [ main ] JPA-QL strict compliance: disabled
+  2016-04-23 22:24:25 [ main ] Second-level cache: enabled
+  2016-04-23 22:24:25 [ main ] Query cache: disabled
+  2016-04-23 22:24:25 [ main ] Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+  2016-04-23 22:24:25 [ main ] Cache provider: org.hibernate.cache.NoCacheProvider
+  2016-04-23 22:24:25 [ main ] Optimize cache for minimal puts: disabled
+  2016-04-23 22:24:25 [ main ] Structured second-level cache entries: disabled
+  2016-04-23 22:24:25 [ main ] Echoing all SQL to stdout
+  2016-04-23 22:24:25 [ main ] Statistics: disabled
+  2016-04-23 22:24:25 [ main ] Deleted entity synthetic identifier rollback: disabled
+  2016-04-23 22:24:25 [ main ] Default entity-mode: pojo
+  2016-04-23 22:24:25 [ main ] Named query checking : enabled
+  2016-04-23 22:24:25 [ main ] building session factory
+  2016-04-23 22:24:25 [ main ] Not binding factory to JNDI, no JNDI name configured
+  2016-04-23 22:24:25 [ main ] Running hbm2ddl schema update
+  2016-04-23 22:24:25 [ main ] fetching database metadata
+  2016-04-23 22:24:25 [ main ] updating schema
+  2016-04-23 22:24:25 [ main ] table not found: teacher
+  2016-04-23 22:24:25 [ main ] table not found: teacher
+  2016-04-23 22:24:25 [ main ] schema update complete
+  2016-04-23 22:24:25 [ main ] closing
+  2016-04-23 22:24:25 [ main ] cleaning up connection pool: jdbc:mysql://localhost/hibernate
+  2016-04-23 22:25:27 [ main ] Hibernate Annotations 3.2.0.GA
+  2016-04-23 22:25:27 [ main ] Hibernate 3.3.2.GA
+  2016-04-23 22:25:27 [ main ] hibernate.properties not found
+  2016-04-23 22:25:27 [ main ] Bytecode provider name : javassist
+  2016-04-23 22:25:27 [ main ] using JDK 1.4 java.sql.Timestamp handling
+  2016-04-23 22:25:27 [ main ] configuring from resource: /hibernate.cfg.xml
+  2016-04-23 22:25:27 [ main ] Configuration resource: /hibernate.cfg.xml
+  2016-04-23 22:25:27 [ main ] Configured SessionFactory: null
+  2016-04-23 22:25:28 [ main ] Binding entity from annotated class: com.hibernate.model.Teacher
+  2016-04-23 22:25:28 [ main ] Bind entity com.hibernate.model.Teacher on table teacher
+  2016-04-23 22:25:28 [ main ] Using Hibernate built-in connection pool (not for production use!)
+  2016-04-23 22:25:28 [ main ] Hibernate connection pool size: 1
+  2016-04-23 22:25:28 [ main ] autocommit mode: false
+  2016-04-23 22:25:28 [ main ] using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost/hibernate
+  2016-04-23 22:25:28 [ main ] connection properties: {user=root, password=****}
+  2016-04-23 22:25:28 [ main ] RDBMS: MySQL, version: 5.7.9-log
+  2016-04-23 22:25:28 [ main ] JDBC driver: MySQL Connector Java, version: mysql-connector-java-5.1.37 ( Revision: 09940f05b4c98150f352e787a2549f11a2e9da93 )
+  2016-04-23 22:25:28 [ main ] Using dialect: org.hibernate.dialect.MySQLDialect
+  2016-04-23 22:25:28 [ main ] Using default transaction strategy (direct JDBC transactions)
+  2016-04-23 22:25:28 [ main ] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+  2016-04-23 22:25:28 [ main ] Automatic flush during beforeCompletion(): disabled
+  2016-04-23 22:25:28 [ main ] Automatic session close at end of transaction: disabled
+  2016-04-23 22:25:28 [ main ] JDBC batch size: 15
+  2016-04-23 22:25:28 [ main ] JDBC batch updates for versioned data: disabled
+  2016-04-23 22:25:28 [ main ] Scrollable result sets: enabled
+  2016-04-23 22:25:28 [ main ] JDBC3 getGeneratedKeys(): enabled
+  2016-04-23 22:25:28 [ main ] Connection release mode: auto
+  2016-04-23 22:25:28 [ main ] Maximum outer join fetch depth: 2
+  2016-04-23 22:25:28 [ main ] Default batch fetch size: 1
+  2016-04-23 22:25:28 [ main ] Generate SQL with comments: disabled
+  2016-04-23 22:25:28 [ main ] Order SQL updates by primary key: disabled
+  2016-04-23 22:25:28 [ main ] Order SQL inserts for batching: disabled
+  2016-04-23 22:25:28 [ main ] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+  2016-04-23 22:25:28 [ main ] Using ASTQueryTranslatorFactory
+  2016-04-23 22:25:28 [ main ] Query language substitutions: {}
+  2016-04-23 22:25:28 [ main ] JPA-QL strict compliance: disabled
+  2016-04-23 22:25:28 [ main ] Second-level cache: enabled
+  2016-04-23 22:25:28 [ main ] Query cache: disabled
+  2016-04-23 22:25:28 [ main ] Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+  2016-04-23 22:25:28 [ main ] Cache provider: org.hibernate.cache.NoCacheProvider
+  2016-04-23 22:25:28 [ main ] Optimize cache for minimal puts: disabled
+  2016-04-23 22:25:28 [ main ] Structured second-level cache entries: disabled
+  2016-04-23 22:25:28 [ main ] Echoing all SQL to stdout
+  2016-04-23 22:25:28 [ main ] Statistics: disabled
+  2016-04-23 22:25:28 [ main ] Deleted entity synthetic identifier rollback: disabled
+  2016-04-23 22:25:28 [ main ] Default entity-mode: pojo
+  2016-04-23 22:25:28 [ main ] Named query checking : enabled
+  2016-04-23 22:25:28 [ main ] building session factory
+  2016-04-23 22:25:29 [ main ] Not binding factory to JNDI, no JNDI name configured
+  2016-04-23 22:25:29 [ main ] Running hbm2ddl schema update
+  2016-04-23 22:25:29 [ main ] fetching database metadata
+  2016-04-23 22:25:29 [ main ] updating schema
+  2016-04-23 22:25:29 [ main ] table found: hibernate.teacher
+  2016-04-23 22:25:29 [ main ] columns: [name, id, title]
+  2016-04-23 22:25:29 [ main ] foreign keys: []
+  2016-04-23 22:25:29 [ main ] indexes: [primary]
+  2016-04-23 22:25:29 [ main ] schema update complete
+  2016-04-23 22:25:29 [ main ] closing
+  2016-04-23 22:25:29 [ main ] cleaning up connection pool: jdbc:mysql://localhost/hibernate
   

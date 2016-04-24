@@ -1,4 +1,4 @@
-import java.text.Annotation;
+
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -12,8 +12,7 @@ import com.hibernate.model.Teacher;
 public class TeacherTest {
 	public static void main(String[] args){
 		Teacher t = new Teacher();
-		t.setId(14);
-		t.setName("t1");  
+		 
 		t.setTitle("ÖÐ¼¶");
 		
 		

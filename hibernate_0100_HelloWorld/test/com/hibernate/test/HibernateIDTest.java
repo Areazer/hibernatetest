@@ -1,5 +1,5 @@
 package com.hibernate.test;
-
+import com.hibernate.model.*;
 import java.sql.PseudoColumnUsage;
 
 import org.hibernate.HibernateException;
@@ -13,6 +13,7 @@ import org.junit.Test;
 import com.hibernate.model.Student;
 import com.hibernate.model.StudentPK;
 import com.hibernate.model.Teacher;
+import com.hibernate.model.TeacherPK;
 
 public class HibernateIDTest {
 private static SessionFactory sessionFactory;
@@ -32,8 +33,8 @@ private static SessionFactory sessionFactory;
 	public void testStudentSave() {
 		StudentPK pk=new StudentPK();
 		
-		pk.setId(9);
-		pk.setName("aaa");
+		pk.setId(10);
+		pk.setName("aaab");
 		
 		Student s = new Student();
 		s.setPk(pk);
@@ -49,11 +50,13 @@ private static SessionFactory sessionFactory;
 	
 	@Test
 	public void testTeacherSave() {
-	
-		Teacher t = new Teacher();
 		
-		t.setName("tt");
-		t.setTitle("middle");
+		
+		
+		Teacher t = new Teacher();	
+		t.setId(8);
+		t.setName("888");
+		t.setTitle("high8");
 		
 		
 		Session session = sessionFactory.getCurrentSession();
